@@ -78,7 +78,11 @@ Cargo uses the `COPY` and `UNLOAD` commands to efficiently load and export data.
 
 To enable this functionality, your Redshift cluster needs access to Cargo's S3 bucket. This can be achieved by setting up cross-account access.
 
-Cargo has created a role with the necessary access to their S3 bucket for you. To complete the setup, you need to create a policy and a role on AWS that is connected to this role. Then, attach the role to your Redshift cluster (or namespace if using Redshift Serverless), and provide us with the ARN of the role.
+<figure><img src=".gitbook/assets/Capture d’écran 2023-04-06 à 15.29.59.png" alt=""><figcaption><p>ARN created by Cargo for you</p></figcaption></figure>
+
+Once you submit the form to create the workspace, Cargo create a role with the necessary access to their S3 bucket for you.
+
+To complete the setup, you need to create a policy and a role on AWS that is connected to this role. Then, attach the role to your Redshift cluster (or namespace if using Redshift Serverless), and provide us with the ARN of the role.
 
 The steps are detailed in this document, but you can also refer to the full AWS documentation here[https://repost.aws/knowledge-center/redshift-s3-cross-account](https://repost.aws/knowledge-center/redshift-s3-cross-account).
 
