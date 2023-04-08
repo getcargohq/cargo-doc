@@ -72,6 +72,6 @@ To create a new workspace on Cargo, follow these steps:
 
 ## Setup completed 🎉
 
-You are ready to use Cargo !
+You are ready to use Cargo!
 
 <figure><img src="https://media.giphy.com/media/Gjoz5izVy7gSA/giphy.gif" alt=""><figcaption></figcaption></figure>
