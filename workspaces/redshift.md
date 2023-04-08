@@ -14,23 +14,32 @@ To write data into the database, Cargo uses files stored in S3 and imports the d
 
 To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions.
 
-## Create a DB User for Cargo
+## Create a dedicated DB for Cargo needs
 
-In order for Cargo to run commands within Redshift, it must be authenticated as a Redshift user with the necessary permissions.
+All data managed by Cargo will be stored and transformed in a dedicated database on your Redshift cluster.
 
 ```sql
--- Create the USER
+CREATE DATABASE cargo_db;
+```
+
+## Create a user for Cargo
+
+In order for Cargo to run commands, it must be authenticated as a Redshift user with the necessary permissions on the database you just created above.
+
+```sql
+-- Create the user
 CREATE USER cargo_user WITH PASSWORD '<strong_password>';
--- Grant to the USER permissions on the database Cargo will use
-GRANT ALL ON DATABASE <database_name> TO cargo_user;
--- Allow the USER to create functions
+
+-- Grant to the user permissions on the database Cargo will use
+GRANT ALL ON DATABASE cargo_db TO cargo_user;
+
+-- Allow the user to create functions
 CREATE ROLE cargo_create_replace_function;
 GRANT CREATE OR REPLACE FUNCTION TO ROLE cargo_create_replace_function;
 GRANT ROLE cargo_create_replace_function TO cargo_user;
--- For each existing schemas and tables the USER need access to, give him permissions
--- (schemas and tables that will be used in Cargo)
-GRANT USAGE ON SCHEMA <schema_name> TO cargo_user;
-GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA <schema_name> TO cargo_user;
+
+-- Cargo user may needs to access data outside the 'cargo_db' database.
+GRANT SELECT ON ALL TABLES IN SCHEMA <database_name>.<schema_name> TO cargo_user;
 ```
 
 ## Allow Cargo IP
@@ -40,17 +49,17 @@ Depending on the configuration of Redshift, it may be necessary to whitelist Car
 To whitelist the IP:
 
 1. Open the VPC security group used for Redshift.
-   * For Redshift Serverless, follow these steps to find the security group:
-     * Go to **Workgroup configuration**.
-     * Go to **Network and configuration**.
-     * Click on **VPC security group**.
+   - For Redshift Serverless, follow these steps to find the security group:
+     - Go to **Workgroup configuration**.
+     - Go to **Network and configuration**.
+     - Click on **VPC security group**.
 2. Click on **Inbound rules**.
 3. Click on **Edit inbound rules**.
 4. Click on **Add a new rule**.
 5. Set the following values:
-   * **All traffic**
-   * **Source custom**
-   * **CARGO IP**
+   - **All traffic**
+   - **Source custom**
+   - **CARGO IP**
 
 At the moment, Cargo does not support SSH. Therefore, Redshift cannot only be accessed through private or internal networks. To be accessible, it must be made publicly available.
 
@@ -62,11 +71,11 @@ Cargo will use this information to connect to the Redshift database:
 
 For Redshift Serverless:
 
-* Select the workgroup to see the workgroup configuration.
-* Copy the endpoint value.
-*   Extract the hostname, port, and database name from the endpoint value.
+- Select the workgroup to see the workgroup configuration.
+- Copy the endpoint value.
+- Extract the hostname, port, and database name from the endpoint value.
 
-    The endpoint has the following format: `hostname:port/database_name`.
+  The endpoint has the following format: `hostname:port/database_name`.
 
 **User - Password**
 
@@ -84,28 +93,29 @@ Once you submit the form to create the workspace, Cargo create a role with the n
 
 To complete the setup, you need to create a policy and a role on AWS that is connected to this role. Then, attach the role to your Redshift cluster (or namespace if using Redshift Serverless), and provide us with the ARN of the role.
 
-The steps are detailed in this document, but you can also refer to the full AWS documentation here[https://repost.aws/knowledge-center/redshift-s3-cross-account](https://repost.aws/knowledge-center/redshift-s3-cross-account).
+The steps are detailed in this document, but you can also refer to the full AWS documentation [here](https://repost.aws/knowledge-center/redshift-s3-cross-account).
 
 ### Create a policy
 
 1. Open the IAM console.
 2. Select **Policies** and click **Create policy**.
-3.  Choose JSON and copy the following policy. Make sure to replace `<cargo_role_arn>` with the ARN of the role created by Cargo for you.
+3. Choose JSON and copy the following policy. Make sure to replace `<cargo_role_arn>` with the ARN of the role created by Cargo for you.
 
-    ```
-    {
-      "Version": "2012-10-17",
-      "Statement": [
-        {
-          "Sid": "CrossAccountPolicy",
-          "Effect": "Allow",
-          "Action": "sts:AssumeRole",
-          "Resource": "<cargo_role_arn>"
-        }
-      ]
-    }
+   ```
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Sid": "CrossAccountPolicy",
+         "Effect": "Allow",
+         "Action": "sts:AssumeRole",
+         "Resource": "<cargo_role_arn>"
+       }
+     ]
+   }
 
-    ```
+   ```
+
 4. Click **Next**, set a meaningful name, and create the policy.
 
 ### Create a role
@@ -135,7 +145,6 @@ The steps are detailed in this document, but you can also refer to the full AWS 
 
 ## Setup completed 🎉
 
-You are ready to use Cargo !
+You are ready to use Cargo!
 
-<figure><img src="https://media.giphy.com/media/U4DswrBiaz0p67ZweH/giphy.gif" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="https://media.giphy.com/media/9rjzS2QYAk1paKD7uk/giphy.gif" alt=""><figcaption></figcaption></figure>
