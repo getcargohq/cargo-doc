@@ -1,6 +1,6 @@
 # Table of contents
 
-- [🎉 Introduction](introduction.md)
+- [🎉 Introduction](README.md)
 
 ## 🏢 Workspaces
 
