@@ -1,7 +1,3 @@
----
-description: This page explains how to setup Cargo on a Google BigQuery warehouse.
----
-
 # Use Cargo on Google BigQuery
 
 Cargo reads data from existing tables and creates its own datasets, schemas, and tables. It should be noted that **Cargo never overwrites existing data**.
@@ -17,9 +13,6 @@ Cargo uses some Google APIs that must be enabled. To do so:
 1. Go to the Google Cloud Console.
 2. Select **APIs & Services**.
 3. Select **Enabled APIs & Services**.
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-04-05 à 18.59.22.png" alt=""><figcaption><p>Enable APIs in Google Cloud</p></figcaption></figure>
-
 4. Search for and enable the following APIs:
    1. BigQuery API
    2. Cloud Resource Manager API.
@@ -33,9 +26,6 @@ To create a service account, follow these steps:
 1. Go to the Google Cloud Console.
 2. Click on **IAM & Admin**.
 3. Click on **IAM**.
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-04-05 à 18.29.33.png" alt=""><figcaption><p>Open IAM to create a Service Account</p></figcaption></figure>
-
 4. Click on **Service Accounts**.
 5. Click on **Create service account**.
 6. Give the service account a name.
@@ -67,8 +57,6 @@ To create a new workspace on Cargo, follow these steps:
    1. In the Google Cloud Console, open BigQuery.
    2. Choose a dataset.
    3. Look for the **Data location** value.
-
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-04-05 à 18.49.37.png" alt=""><figcaption><p>Find data location in BigQuery</p></figcaption></figure>
 
 ## Setup completed 🎉
 

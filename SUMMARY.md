@@ -1,17 +1,22 @@
 # Table of contents
 
-- [🎉 Introduction](README.md)
+* [🎉 Introduction](README.md)
+* [⚙ Architecture](architecture.md)
 
 ## 🏢 Workspaces
 
-- [Use Cargo on Snowflake](workspaces/snowflake.md)
-- [Use Cargo on AWS Redshift](workspaces/redshift.md)
-- [Use Cargo on Google BigQuery](workspaces/bigquery.md)
+* [Use Cargo on Snowflake](workspaces/snowflake.md)
+* [Use Cargo on Google BigQuery](workspaces/bigquery.md)
+* [Use Cargo on AWS Redshift](workspaces/redshift.md)
 
 ## 🚢 Integrations
 
-- [Salesforce](integrations/salesforce.md)
-- [Hubspot](integrations/hubspot.md)
-- [Lemlist](integrations/lemlist.md)
-- [Slack](integrations/slack.md)
-- [Clearbit](integrations/clearbit.md)
+* [Salesforce](integrations/salesforce.md)
+* [Hubspot](integrations/hubspot.md)
+* [Lemlist](integrations/lemlist.md)
+* [Slack](integrations/slack.md)
+* [Clearbit](integrations/clearbit.md)
+* [Google sheets](integrations/google-sheets.md)
+* [Outreach](integrations/outreach.md)
+* [Http](integrations/http.md)
+* [Pipedrive](integrations/pipedrive.md)

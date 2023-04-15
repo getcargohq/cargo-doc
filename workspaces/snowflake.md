@@ -1,7 +1,3 @@
----
-description: This page explains how to setup Cargo on a Snowflake warehouse.
----
-
 # Use Cargo on Snowflake
 
 Cargo reads data from schemas and tables, even if they are spread across multiple databases, and writes them into new schemas and tables.
@@ -47,11 +43,11 @@ GRANT SELECT ON ALL TABLES IN SCHEMA <database_name>.<schema_name> TO cargo_user
 
 Cargo user should have access to the following permissions on the `cargo_db`:
 
-- `OWNERSHIP`
-- `MODIFY`
-- `MONITOR`
-- `USAGE`
-- `CREATE SCHEMA`
+* `OWNERSHIP`
+* `MODIFY`
+* `MONITOR`
+* `USAGE`
+* `CREATE SCHEMA`
 
 You can use the following command to check the granted priviliges of the database
 

@@ -1,4 +1,4 @@
-# Introduction
+# 🎉 Introduction
 
 Cargo is the first warehouse native revenue platform that unlocks data access for revenue teams to automate their data operations. It provides a simple layer enabling them to orchestrate use cases like ABM, account scoring, lead routing and more, … to generate more revenue.
 

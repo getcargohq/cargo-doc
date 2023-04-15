@@ -4,16 +4,14 @@ description: This page explains how to setup the Slack integration on Cargo.
 
 # Slack
 
-### About
-
 Connect your Slack to send notifications to person or channels in your organization
 
-### Auth
+### How to authenticate?
 
-To connect to Slack, there are only 2 steps:
+To connect to Slack, click on authenticate button and log in with your credentials. Allow the required permissions.
 
-1. Click on authenticate and log in with your credentials. Allow Permission
+<figure><img src="../.gitbook/assets/screenshot_1 (2).png" alt=""><figcaption><p>Allow Cargo to access Slack workspace</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/screenshot_1.png" alt=""><figcaption><p>Allow Cargo to access Slack workspace</p></figcaption></figure>
+### Available actions
 
-2. You’re ready to go
+**Send message** - Write message to a specific channel

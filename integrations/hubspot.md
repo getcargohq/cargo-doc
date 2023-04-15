@@ -4,16 +4,22 @@ description: This page explains how to setup the Hubspot integration on Cargo.
 
 # Hubspot
 
-### About
-
 Connect your hubspot to personalize your engagement or update contact and company records seamlessly.
 
-### Auth
+### How to authenticate?
 
-To connect to Hubspot, there are only 2 steps:
+To connect to Hubspot, click on authenticate and log in with your credentials
 
-1. Click on authenticate and log in with your credentials
+<figure><img src="../.gitbook/assets/screenshot_1 (1).png" alt=""><figcaption><p>Hubspot Authentication</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/screenshot_1 (4).png" alt=""><figcaption><p>Hubspot Authentication</p></figcaption></figure>
 
-2. You’re ready to go
+
+### Available actions
+
+**Object** - Perform CRUD actions on any salesforce objects
+
+**Association** - Associate 2 object records together
+
+**List** - Add/remove contact from a list
+
+**Lookup** - Retrieve object records
