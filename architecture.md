@@ -1,8 +1,8 @@
 # ⚙ Architecture
 
-## Leveraging the semantic layer built for revenue purposes
+## Leverage the semantic layer
 
-Cargo is a headless platform. It plugs into any system of record (BigQuery, Snowflake, Postgres, …) and never duplicates/stores data on it side. Here are the benefits of not owning the storage for data teams:
+Cargo is a headless platform. It plugs into any system of record (BigQuery, Snowflake, Postgres, …) and never duplicates/stores data on its side. Here are the benefits of not owning the storage for data teams:
 
 * _Data governance_ - You keep the control of the data. Your data is not spread in another system. You can easily plug/unplug Cargo without losing your data.
 * _Data access_ - All changes you are making in your models (with DBT / lookML) are automatically updated into Cargo. You don’t have to struggle with data syncs across different systems. On the other hand, you can use Cargo data in your BI tools
