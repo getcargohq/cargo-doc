@@ -10,9 +10,9 @@ Sync lead and prospect data from Cargo to Pipedrive.
 
 **Supported entities:** Organization, Person, Deal, and Lead.
 
-## Authentication
+###
 
-On Pipedrive
+### How to authenticate?
 
 * Click on your profile icon (top right corner)
 * Choose personal preferences
@@ -21,6 +21,6 @@ On Pipedrive
 
 <figure><img src="../.gitbook/assets/Untitled.png" alt=""><figcaption><p>Pipedrive API token</p></figcaption></figure>
 
-## Available actions
+### Available actions
 
 **Object** - Perform operations on the supported Pipedrive entities&#x20;

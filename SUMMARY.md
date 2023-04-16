@@ -20,3 +20,4 @@
 * [Outreach](integrations/outreach.md)
 * [Http](integrations/http.md)
 * [Pipedrive](integrations/pipedrive.md)
+* [Customer.io](integrations/customerio.md)
