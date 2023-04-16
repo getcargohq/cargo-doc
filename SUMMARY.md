@@ -21,4 +21,4 @@
 * [Http](integrations/http.md)
 * [Pipedrive](integrations/pipedrive.md)
 * [Customer.io](integrations/customerio.md)
-* [Apollo.io](integrations/apollo.io.md)
+* [Apollo.io](integrations/apolloio.md)
