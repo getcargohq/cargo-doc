@@ -18,10 +18,6 @@ Scroll to **API** and click **Connect**.
 
 <figure><img src="../.gitbook/assets/i2.png" alt=""><figcaption></figcaption></figure>
 
-This takes you to the **Apollo API Quickstart** page. Click **Get Started** to read the technical documentation on how to enrich your data with an API and how to search with an API.
-
-<figure><img src="../.gitbook/assets/i14.png" alt=""><figcaption></figcaption></figure>
-
 Click **API Keys** to view or create new **API Keys**. Then, click **+ Create New Key** to generate a new API Key.
 
 <figure><img src="../.gitbook/assets/i15.png" alt=""><figcaption></figcaption></figure>
