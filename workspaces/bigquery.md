@@ -32,8 +32,7 @@ To create a service account, follow these steps:
 7. Grant the following roles:
    1. BigQuery Data Editor
    2. BigQuery Job User
-   3. Project IAM Admin
-   4. Storage Admin.
+   3. Storage Admin.
 8. Click on **Done**.
 
 The next step is to generate a key:
