@@ -19,7 +19,7 @@
 * [Google sheets](integrations/google-sheets.md)
 * [Outreach](integrations/outreach.md)
 * [Salesloft](integrations/salesloft.md)
-* [Http](integrations/http.md)
+* [HTTP](integrations/http.md)
 * [Pipedrive](integrations/pipedrive.md)
 * [Customer.io](integrations/customerio.md)
 * [Apollo.io](integrations/apolloio.md)
