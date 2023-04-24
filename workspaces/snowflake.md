@@ -55,7 +55,9 @@ You can use the following command to check the granted priviliges of the databas
 SHOW GRANTS ON DATABASE cargo_db
 ```
 
-#### For Snowflake accounts hosted on GCP and azure cloud platform
+
+
+## For Snowflake accounts hosted on GCP and Azure
 
 If your Snowflake account is not hosted on AWS, you will need to provide a RSA private key while creating your account. This key is linked to your Snowflake user and will be used to automatically ingest data in your Snowflake instance.&#x20;
 
