@@ -55,6 +55,32 @@ You can use the following command to check the granted priviliges of the databas
 SHOW GRANTS ON DATABASE cargo_db
 ```
 
+#### For Snowflake accounts hosted on GCP and azure cloud platform
+
+If your Snowflake account is not hosted on AWS, you will need to provide a RSA private key while creating your account. This key is linked to your Snowflake user and will be used to automatically ingest data in your Snowflake instance.&#x20;
+
+To start, open a terminal window and generate a private key.
+
+```bash
+$ openssl genrsa 2048 | openssl pkcs8 -topk8 -inform PEM -out rsa_key.p8 -nocrypt
+```
+
+Then generate a public key
+
+```bash
+$ openssl rsa -in rsa_key.p8 -pubout -out rsa_key.pub
+```
+
+Execute an `ALTER USER` command to assign the public key to your Snowflake user.
+
+```sql
+ALTER USER cargo_user SET RSA_PUBLIC_KEY='YOUR_PUBLIC_KEY';
+```
+
+And copy-paste the private key in your workspace configuration
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-24 at 12.32.07 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Allowed IP Addresses
 
 If you're using Snowflake's Allowed IPs network policy, you'll need to add the Cargo IP addresses to your list. Please contact aurelien@getcargo.io to have this configured for you.
