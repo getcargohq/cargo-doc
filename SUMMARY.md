@@ -23,3 +23,4 @@
 * [Pipedrive](integrations/pipedrive.md)
 * [Customer.io](integrations/customerio.md)
 * [Apollo.io](integrations/apolloio.md)
+* [Zoominfo](integrations/zoominfo.md)
