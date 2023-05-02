@@ -16,6 +16,6 @@ Provide your Zoominfo credentials (username and password) to be able to complete
 
 ### Available actions
 
-**Enrich an company** - Retrieve information about a company
+**Enrich a company** - Retrieve information about a company
 
 **Enrich a contact** - Retrieve information about a contact
