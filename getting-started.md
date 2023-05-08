@@ -23,13 +23,13 @@ _If you don't have a system of record to link to, you can directly skip this ste
 
 Once your data warehouse setup, you need to define the different entities you want to work with.
 
-1. Click on 'Create' in the Entities section in the side bar
+1. Click on "Create" in the Entities section in the side bar
 2. Follow the corresponding instructions for each entity
 3. Explicit the relationships between each of your entity
 
 ### Add a Connector
 
-1. Click on 'Connectors' in the side bar
+1. Click on "Connectors" in the side bar
 2. Select the applications to connect to&#x20;
 3. Follow the corresponding instructions.
 
@@ -47,13 +47,13 @@ You can also plug a third party tool using the HTTP connector if there is no exi
 
 #### From a webhook:
 
-1. When Creating a workflow, Click on 'Hook'&#x20;
+1. When Creating a workflow, Click on "Hook"&#x20;
 2. You will get a webhook URL to use to connect your third party app
 3. Create an API token and replace the placeholder at the end of the given webhook URL
 
 ### Create your first workflow
 
-1. Click on the 'workflow" link in the side bar and click on 'Create'
+1. Click on the "workflow" link in the side bar and click on "Create"
 2. Choose the trigger type: Segment based on your declared entities or Webhook
 3. Give a name to your workflow
 4. Choose the Run creation rule
