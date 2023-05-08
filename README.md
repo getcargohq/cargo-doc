@@ -66,7 +66,7 @@ Each workflow features an analytics panel that keep track of each version of the
 
 Want to know about the latest features and bug fixes in our product? Check out our [changelog](http://changelog.getcargo.io).
 
-##
+
 
 ## 🚑 Need help?
 
