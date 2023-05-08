@@ -12,9 +12,7 @@ Cargo is the first warehouse native revenue platform that unlocks data access fo
 
 ## Where to start <a href="#where-to-start" id="where-to-start"></a>
 
-
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><a href="broken-reference">Explore integrations</a></td><td></td></tr><tr><td></td><td><a href="http://localhost:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/">Create workspaces</a></td><td></td></tr><tr><td></td><td><a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/35/workflow-actions">Workflow actions</a></td><td></td></tr><tr><td></td><td><a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/35/getting-started">Getting Started</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center">🚢 <a href="broken-reference">Explore integrations</a></td><td></td></tr><tr><td></td><td align="center">🏢 <a href="http://localhost:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/">Create workspaces</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/35/workflow-actions">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">⭐️  <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/35/getting-started">Getting Started</a></td><td></td></tr></tbody></table>
 
 
 
@@ -62,9 +60,13 @@ You can trigger a workflow from a segment made on top of your entities, or from 
 
 Each workflow features an analytics panel that keep track of each version of the workflows, and monitor execution status.
 
+
+
 ## 🎊 Product changelog
 
 Want to know about the latest features and bug fixes in our product? Check out our [changelog](http://changelog.getcargo.io).
+
+##
 
 ## 🚑 Need help?
 
