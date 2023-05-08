@@ -8,8 +8,6 @@ description: This section gets you up and running with building workflows in Car
 
 <figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
 
-1. Click on '+ Create Workspace' and fill the 'workspace name' with your company name.
-
 ### Setup a system of record _(Optional)_
 
 _If you don't have a system of record to link to, you can directly skip this step and jump to the connector section below._
