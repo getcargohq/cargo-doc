@@ -24,3 +24,4 @@
 * [Customer.io](integrations/customerio.md)
 * [Apollo.io](integrations/apolloio.md)
 * [Zoominfo](integrations/zoominfo.md)
+* [Cognism](integrations/cognism.md)
