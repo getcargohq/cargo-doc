@@ -12,7 +12,7 @@ Cargo is the first warehouse native revenue platform that unlocks data access fo
 
 ## Where to start <a href="#where-to-start" id="where-to-start"></a>
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center">🚢 <a href="broken-reference">Explore integrations</a></td><td></td></tr><tr><td></td><td align="center">🏢 <a href="http://localhost:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/">Create workspaces</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/35/workflow-actions">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center"><a href="getting-started.md">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="getting-started.md">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="workflow-actions/delay.md">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">🚢 <a href="integrations/salesforce.md">Explore integrations</a></td><td></td></tr></tbody></table>
 
 
 
