@@ -16,10 +16,10 @@ To connect to Hubspot, click on authenticate and log in with your credentials
 
 ### Available actions
 
-**Object** - Perform CRUD actions on any salesforce objects
+**Write** - Perform actions on any salesforce objects
 
-**Association** - Associate 2 object records together
+**Associate** - Associate 2 object records together
 
 **List** - Add/remove contact from a list
 
-**Lookup** - Retrieve object records
+**Search** - Retrieve object records

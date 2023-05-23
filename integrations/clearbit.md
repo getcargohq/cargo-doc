@@ -14,6 +14,4 @@ To connect Clearbit, get your API key from your dashboard [**here.**](https://da
 
 ### Available actions
 
-**Enrich a company** - Retrieve information about a company
-
-**Enrich a person** - Retrieve information about a person
+**Read** - Retrieve information about a company/profile

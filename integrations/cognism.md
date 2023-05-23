@@ -16,6 +16,4 @@ Connect Cognism to further enrich your contact and company data.
 
 ### Available actions
 
-**Enrich an account** - Retrieve information about an account
-
-**Enrich a contact** - Retrieve information about a contact
+**Read** - Retrieve information about an account/contact

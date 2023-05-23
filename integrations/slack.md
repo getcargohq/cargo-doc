@@ -14,4 +14,4 @@ To connect to Slack, click on authenticate button and log in with your credentia
 
 ### Available actions
 
-**Send message** - Write message to a specific channel
+**Write** - Post message to a specific channel or user

@@ -14,4 +14,4 @@ To connect to Salesforce, click on authenticate and log in with your credentials
 
 ### Available actions
 
-**Object** - Perform CRUD actions on any salesforce objects
+**Write** - Perform actions on any salesforce objects

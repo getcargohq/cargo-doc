@@ -35,6 +35,4 @@ To give Cargo access to Customer.io, you need to enter:
 
 ### Available actions
 
-**Object** - Perform action on an object (Customer - upsert / delete)
-
-**Event** - Create an event
+**Write** - Perform action on an Customer.io objects (Customer/Event)

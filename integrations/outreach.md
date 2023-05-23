@@ -16,6 +16,6 @@ Click on the authenticate button and log in with your credentials
 
 ### Available actions
 
-**Object** - Perform CRUD actions on an account or prospect
+**Write** - Perform actions on an account or prospect
 
 **Sequence** - Add a prospect to a sequence

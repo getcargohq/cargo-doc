@@ -23,4 +23,4 @@ Sync lead and prospect data from Cargo to Pipedrive.
 
 ### Available actions
 
-**Object** - Perform operations on the supported Pipedrive entities&#x20;
+**Write** - Perform actions on Pipedrive objects&#x20;

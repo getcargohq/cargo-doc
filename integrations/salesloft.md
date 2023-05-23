@@ -20,5 +20,5 @@ In the Salesloft settings, an API Key can be created on this page.
 
 ### Available actions
 
-**Object** - Perform CRUD actions on an account or person
+**Write** - Perform actions on an account or person
 

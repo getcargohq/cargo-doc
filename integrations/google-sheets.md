@@ -16,4 +16,4 @@ To connect to Google sheet, click on authenticate and log in with your credentia
 
 ### Available actions
 
-**Insert row** - Push data in a new row
+**Write** - Insert a new row

@@ -29,6 +29,6 @@ Name your new **API Key** and add a description.
 
 ### Available actions
 
-**Enrich an organization** - Retrieve information about an organization
+**Read** - Retrieve information about an organization/person
 
-**Enrich a person** - Retrieve information about a person
+**Search** - Retrieve organization records

@@ -16,9 +16,7 @@ Log In to your Lemlist Account. Click the Settings tab in the left-side navigati
 
 ### Available actions
 
-**Insert a contact** - insert a contact to a campaign
-
-**Delete a contact** - delete a contact from a campaign
+**Write** - insert/delete a contact to a campaign
 
 **Unsubscribe a contact** - unsubscribe a contact from a campaign
 
