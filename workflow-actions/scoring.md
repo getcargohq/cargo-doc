@@ -13,10 +13,6 @@ description: >-
 Scoring model
 {% endembed %}
 
-{% embed url="https://app.guideflow.com/embed/lpnvnzherv" %}
-
-
-
 Related Resources:
 
 [https://www.getcargo.io/blog/the-right-approach-to-lead-scoring-in-b2b](https://www.getcargo.io/blog/the-right-approach-to-lead-scoring-in-b2b)
