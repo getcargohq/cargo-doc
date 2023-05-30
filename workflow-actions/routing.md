@@ -11,8 +11,6 @@ description: >-
 
 **How to use it:**
 
-{% embed url="https://app.guideflow.com/player/9r2yjohok6" %}
-
 {% embed url="https://app.guideflow.com/player/qkqmlxs1px" %}
 _Lead routing process_
 {% endembed %}
