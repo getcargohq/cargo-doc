@@ -2,7 +2,7 @@
 description: >-
   This section explains how to setup a routing process using Cargo. Routing let
   you route leads to the right sequences, sales or territory based on your own
-  rules. In the example below, we route leads d
+  rules.
 ---
 
 # 🛣 Routing
@@ -11,13 +11,11 @@ description: >-
 
 **How to use it:**
 
-
-
 {% embed url="https://app.guideflow.com/player/9r2yjohok6" %}
+
+{% embed url="https://app.guideflow.com/player/qkqmlxs1px" %}
 _Lead routing process_
 {% endembed %}
-
-
 
 Related Resources:
 
