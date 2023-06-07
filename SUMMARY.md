@@ -28,6 +28,7 @@
 * [Salesforce](integrations/salesforce.md)
 * [Hubspot](integrations/hubspot.md)
 * [Lemlist](integrations/lemlist.md)
+* [LaGrowthMachine](integrations/lagrowthmachine.md)
 * [Slack](integrations/slack.md)
 * [Clearbit](integrations/clearbit.md)
 * [Google sheets](integrations/google-sheets.md)
