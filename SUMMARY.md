@@ -29,6 +29,7 @@
 * [Hubspot](integrations/hubspot.md)
 * [Lemlist](integrations/lemlist.md)
 * [LaGrowthMachine](integrations/lagrowthmachine.md)
+* [Captain data](integrations/captain-data.md)
 * [Slack](integrations/slack.md)
 * [Clearbit](integrations/clearbit.md)
 * [Google sheets](integrations/google-sheets.md)
