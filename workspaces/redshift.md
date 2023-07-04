@@ -6,6 +6,8 @@ It's important to note that **Cargo never overwrites existing schemas and tables
 
 To write data into the database, Cargo uses files stored in S3 and imports the data of these files using the `COPY` command.
 
+For the computed column feature, Cargo creates external function on Redshift calling a Lambda on your AWS. The lambda runs the Javascript code you define for the column in Cargo.
+
 To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions.
 
 ## Create a dedicated DB for Cargo needs
@@ -16,7 +18,7 @@ All data managed by Cargo will be stored and transformed in a dedicated database
 CREATE DATABASE cargo_db;
 ```
 
-## Create a user for Cargo
+## Create a DB user for Cargo
 
 In order for Cargo to run commands, it must be authenticated as a Redshift user with the necessary permissions on the database you just created above.
 
@@ -31,6 +33,9 @@ GRANT ALL ON DATABASE cargo_db TO cargo_user;
 CREATE ROLE cargo_create_replace_function;
 GRANT CREATE OR REPLACE FUNCTION TO ROLE cargo_create_replace_function;
 GRANT ROLE cargo_create_replace_function TO cargo_user;
+
+-- For the computed column feature
+GRANT USAGE ON LANGUAGE exfunc TO cargo_user;
 
 -- Cargo user may needs to access data outside the 'cargo_db' database.
 GRANT SELECT ON ALL TABLES IN SCHEMA <database_name>.<schema_name> TO cargo_user;
@@ -116,7 +121,34 @@ The steps are detailed in this document, but you can also refer to the full AWS 
 3. Choose **AWS service** as **Trusted entity type**, and select **Redshift - Customizable** as Use case.
 4. Click **Next**.
 5. Select the policy created in the previous step, and click **Next**.
-6. Set a meaningful name, and create the role.
+6. Set a meaningful name
+7. Create the role.
+
+### Give Redshift access to AWS Lambda
+
+To compute the values of computed columns using external functions, Redshift need access to AWS Lambda.
+
+1. Go back to IAM console
+2. Find the role
+3. Select the tab **Trust relationships**
+4. Click on **Edit trust policy** and add the following statement
+
+```
+{
+  "Effect": "Allow",
+  "Principal": {
+    "Service": "lambda.amazonaws.com"
+  },
+  "Action": "sts:AssumeRole"
+}
+```
+
+5. Click on **update policy**
+6. Now choose the **permissions** tab
+7. Click on **Add permissions**, **Attach policies**
+8. And attach the following AWS policies:
+   1. AWSLambdaExecute
+   2. AWSLambdaRole
 
 ### Attach the role to Redshift
 
