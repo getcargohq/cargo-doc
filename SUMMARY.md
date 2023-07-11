@@ -26,6 +26,7 @@
 ## 🚢 Integrations
 
 * [Salesforce](integrations/salesforce.md)
+* [OneSignal](integrations/onesignal.md)
 * [Sendgrid](integrations/sendgrid.md)
 * [Hubspot](integrations/hubspot.md)
 * [Lemlist](integrations/lemlist.md)
