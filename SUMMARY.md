@@ -43,3 +43,4 @@
 * [Apollo.io](integrations/apolloio.md)
 * [Zoominfo](integrations/zoominfo.md)
 * [Cognism](integrations/cognism.md)
+* [Waterfall](integrations/waterfall.md)
