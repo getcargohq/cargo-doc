@@ -44,3 +44,4 @@
 * [Zoominfo](integrations/zoominfo.md)
 * [Cognism](integrations/cognism.md)
 * [Waterfall](integrations/waterfall.md)
+* [People Data Labs](integrations/people-data-labs.md)
