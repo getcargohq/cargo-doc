@@ -160,6 +160,42 @@ To compute the values of computed columns using external functions, Redshift nee
 4. Click on **Manage IAM roles** again and select **Associate IAM roles**.
 5. Select the role created earlier, and click on Associate IAM roles
 
+## Lambda Functions
+
+In Cargo, you can create computed columns on entities. It allows you to generate the column value based on Javascript code.
+
+The column values are computed on the Redshift side, in a user-defined function, when we fetch the data to display it in Cargo. But Javascript code can't run on Redshift directly.
+
+The solution to the problem is to put the Javascript code inside a Lambda function, and create a user-defined function calling this Lambda function. For more details, see [this AWS documentation](https://docs.aws.amazon.com/redshift/latest/dg/udf-creating-a-lambda-sql-udf.html).&#x20;
+
+Which means Cargo needs to be able to create Lambda functions in the same AWS account as Redshift.
+
+To do this, you have to create a user for us with the Lambda policies, generate credentials, and copy/paste these credentials in the Redshift setup.
+
+1. Open the IAM console once again.
+2. Select **users**
+3. Click **create user**
+4. Give it a name, like **"cargo\_lambda"**
+5. Click on **next**
+6. Select **Attach policies directly**
+7.  Check **AWSLambda\_FullAccess**
+
+    _(we are working to improve this part and ask for less permissions)_
+8. Click **next**, and create the user
+
+The user has been created
+
+1. Select the created user in the users list
+2. Open the **Security credentials** tab
+3. Scroll down to the **Access keys** section
+4. Click on **Create access key**
+5. Choose **Third-party service** and check the **confirmation** checkbox
+6. Click **next**
+7. Add a description, like **"Access key for Cargo Redshift setup"**
+8. Click **Create access key**
+
+Copy the **Access key** in the **accessKeyId** field, and the **Secret access key** in the **secretAccessKey** field on Cargo.&#x20;
+
 ## Setup completed 🎉
 
 You are ready to use Cargo!
