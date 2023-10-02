@@ -1,18 +1,27 @@
 # Use Cargo on AWS Redshift
 
-Cargo reads data from schemas and tables, even if they are spread across multiple databases, and writes them into new schemas and tables.
+✅ What Cargo can do
 
-It's important to note that **Cargo never overwrites existing schemas and tables**. Instead, it creates its own schemas and tables specifically for this purpose.
+1. **Read** data from schemas and tables, even if they are spread across multiple databases,
+2. **Writes** them into new schemas and tables
 
-To write data into the database, Cargo uses files stored in S3 and imports the data of these files using the `COPY` command.
+❌ What Cargo will never do
 
-For the computed column feature, Cargo creates external function on Redshift calling a Lambda on your AWS. The lambda runs the Javascript code you define for the column in Cargo.
+1. **Overwrite** existing schemas and tables
 
-To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions.
+(instead it always creates its own schemas and tables when needed)
+
+
+
+**How it works**: Cargo uses files stored in S3 and imports the data of these files using the `COPY` command to write data into the database
+
+**Case**: You use Cargo’s computed column feature in your entity. Cargo creates an external function on Redshift calling a Lambda on your AWS. The lambda runs the Javascript code you define for the column in Cargo
+
+**Disclaimer**: Cargo does not currently support SSH. Therefore, Redshift can only be accessed through private or internal networks. To be accessible, it must be made publicly available
 
 ## Create a dedicated DB for Cargo needs
 
-All data managed by Cargo will be stored and transformed in a dedicated database on your Redshift cluster.
+All data managed by Cargo will be stored and transformed in a dedicated database on your Redshift cluster
 
 ```sql
 CREATE DATABASE cargo_db;
@@ -20,7 +29,7 @@ CREATE DATABASE cargo_db;
 
 ## Create a DB user for Cargo
 
-In order for Cargo to run commands, it must be authenticated as a Redshift user with the necessary permissions on the database you just created above.
+In order for Cargo to run commands, it must be authenticated as a Redshift user with the necessary permissions on the database you just created above
 
 ```sql
 -- Create the user
@@ -43,24 +52,24 @@ GRANT SELECT ON ALL TABLES IN SCHEMA <database_name>.<schema_name> TO cargo_user
 
 ## Allow Cargo IP
 
-Depending on the configuration of Redshift, it may be necessary to whitelist Cargo's public IP address.
+Depending on the configuration of Redshift, it may be necessary to whitelist Cargo's public IP address
 
 To whitelist the IP:
 
-1. Open the VPC security group used for Redshift.
+1. Open the VPC security group used for Redshift
    * For Redshift Serverless, follow these steps to find the security group:
-     * Go to **Workgroup configuration**.
-     * Go to **Network and configuration**.
-     * Click on **VPC security group**.
-2. Click on **Inbound rules**.
-3. Click on **Edit inbound rules**.
-4. Click on **Add a new rule**.
+     * Go to **Workgroup configuration**
+     * Go to **Network and configuration**
+     * Click on **VPC security group**
+2. Click on **Inbound rules**
+3. Click on **Edit inbound rules**
+4. Click on **Add a new rule**
 5. Set the following values:
    * **All traffic**
    * **Source custom**
    * **CARGO IP**
 
-At the moment, Cargo does not support SSH. Therefore, Redshift cannot only be accessed through private or internal networks. To be accessible, it must be made publicly available.
+At the moment, Cargo does not support SSH. Therefore, Redshift cannot only be accessed through private or internal networks. To be accessible, it must be made publicly available
 
 ## DB connection
 
@@ -70,11 +79,11 @@ Cargo will use this information to connect to the Redshift database:
 
 For Redshift Serverless:
 
-* Select the workgroup to see the workgroup configuration.
-* Copy the endpoint value.
+* Select the workgroup to see the workgroup configuration
+* Copy the endpoint value
 *   Extract the hostname, port, and database name from the endpoint value.
 
-    The endpoint has the following format: `hostname:port/database_name`.
+    The endpoint has the following format: `hostname:port/database_name`
 
 **User - Password**
 
@@ -82,11 +91,11 @@ This refers to the user created earlier.
 
 ## Cross account access
 
-Cargo uses the `COPY` and `UNLOAD` commands to efficiently load and export data. These commands are executed from your Redshift, but read or write data to Cargo's S3 bucket.
+**Read me**: Cargo uses the `COPY` and `UNLOAD` commands to efficiently load and export data. These commands are executed from your Redshift, but read or write data to Cargo's S3 bucket
 
-To enable this functionality, your Redshift cluster needs access to Cargo's S3 bucket. This can be achieved by setting up cross-account access.
+To enable this functionality, your Redshift cluster needs access to Cargo's S3 bucket. This can be achieved by setting up **cross-account access**
 
-Once you submit the form to create the workspace, Cargo create a role with the necessary access to their S3 bucket for you.
+Once you submit the form to create the workspace, Cargo create a role with the **necessary access to their S3 bucket for you**
 
 To complete the setup, you need to create a policy and a role on AWS that is connected to this role. Then, attach the role to your Redshift cluster (or namespace if using Redshift Serverless), and provide us with the ARN of the role.
 
@@ -162,9 +171,7 @@ To compute the values of computed columns using external functions, Redshift nee
 
 ## Lambda Functions
 
-In Cargo, you can create computed columns on entities. It allows you to generate the column value based on Javascript code.
-
-The column values are computed on the Redshift side, in a user-defined function, when we fetch the data to display it in Cargo. But Javascript code can't run on Redshift directly.
+**What we use it for**: In Cargo, you can create computed columns on entities. It allows you to generate the column value based on Javascript code. The column values are computed on the Redshift side, in a user-defined function, when we fetch the data to display it in Cargo. But Javascript code can't run on Redshift directly.
 
 The solution to the problem is to put the Javascript code inside a Lambda function, and create a user-defined function calling this Lambda function. For more details, see [this AWS documentation](https://docs.aws.amazon.com/redshift/latest/dg/udf-creating-a-lambda-sql-udf.html).&#x20;
 

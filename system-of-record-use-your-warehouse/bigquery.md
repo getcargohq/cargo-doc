@@ -1,8 +1,19 @@
 # Use Cargo on Google BigQuery
 
-Cargo reads data from existing tables and creates its own datasets, schemas, and tables. It should be noted that **Cargo never overwrites existing data**.
+✅ What Cargo can do
 
-Cargo uses the Google Cloud BigQuery client to read and write data via the BigQuery API. When downloading records of a Cargo Entity or Segment into a file, Cargo uses Google Cloud Storage.
+1. **Read** data from schemas and tables, even if they are spread across multiple databases,
+2. **Writes** them into new schemas and tables
+
+❌ What Cargo will never do
+
+1. **Overwrite** existing schemas and tables
+
+(instead it always creates its own schemas and tables when needed)
+
+
+
+**How it works**: Cargo uses the Google Cloud BigQuery client to read and write data via the BigQuery API. When downloading records of a Cargo Entity or Segment into a file, Cargo uses Google Cloud Storage.
 
 To perform these actions, Cargo must have certain permissions in Google Cloud. Therefore, setup is required to ensure that Cargo has the necessary permissions.
 
@@ -13,7 +24,7 @@ Cargo uses some Google APIs that must be enabled. To do so:
 1. Go to the Google Cloud Console.
 2. Select **APIs & Services**.
 3. Select **Enabled APIs & Services**.
-4. Search for and enable the following APIs:
+4. Search for and **enable the following APIs**:
    1. BigQuery API
    2. Cloud Resource Manager API.
 
@@ -29,13 +40,15 @@ To create a service account, follow these steps:
 4. Click on **Service Accounts**.
 5. Click on **Create service account**.
 6. Give the service account a name.
-7. Grant the following roles:
+7. **Grant** the following roles:
    1. BigQuery Data Editor
    2. BigQuery Job User
    3. Storage Admin.
 8. Click on **Done**.
 
-The next step is to generate a key:
+## Generate a Key
+
+Following the steps below to generate a key:
 
 1. In **Service Accounts**, click on the created service account.
 2. Click on **Keys**.
@@ -54,7 +67,7 @@ To create a new workspace on Cargo, follow these steps:
 2. Copy and paste the content of the file into the field labeled **Service Account**.
 3. To determine which **location** to use, follow these steps:
    1. In the Google Cloud Console, open BigQuery.
-   2. Choose a dataset.
+   2. Choose a **dataset**.
    3. Look for the **Data location** value.
 
 ## Setup completed 🎉

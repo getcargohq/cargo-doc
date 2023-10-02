@@ -17,11 +17,11 @@ Whether you want to use AI prompt to explain an action or to configure an action
 
 For instance, if you want to see which data you have at your disposal when starting the workflow, you can write <mark style="color:green;">\{{nodes.start.</mark> too see the available data at this point.&#x20;
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-08 à 15.44.21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.44.21.png" alt=""><figcaption></figcaption></figure>
 
 if you would like to get the information enriched by "Apollo" you would do <mark style="color:green;">\{{nodes.node\_3\[...]\}}</mark> and select the attributes you want like below
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-08 à 15.50.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.50.12.png" alt=""><figcaption></figcaption></figure>
 
 #### Fall back logic
 
@@ -31,15 +31,15 @@ This can be used for occasions when you know that data being returned will be in
 
 To use multiple attributes in a field, you can use the double pipe “||”.&#x20;
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt=""><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt=""><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
 
 The fallback logic is often used with waterfall logic: when pushing an enriched data to your CRM, you want to make sure something is pushed. For instance, you have two different source of email data, you put both to maximize coverage rate.
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-08 à 16.28.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 16.28.09.png" alt=""><figcaption></figcaption></figure>
 
 You can execute JavaScript within an expression.
 
-<figure><img src=".gitbook/assets/Screenshot 2023-05-08 at 7.58.35 PM.png" alt=""><figcaption><p>Example of Javascript expression</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-08 at 7.58.35 PM.png" alt=""><figcaption><p>Example of Javascript expression</p></figcaption></figure>
 
 
 

@@ -1,16 +1,22 @@
 # Table of contents
 
 * [🎉 Introduction](README.md)
-* [⚙ Architecture](architecture.md)
-* [⭐ Getting Started](getting-started.md)
-* [🤖 AI powered](ai-powered.md)
-* [✍ Syntax](syntax.md)
 
-## 🏢 Workspaces
+## 🏢 System of record (use your warehouse)
 
-* [Use Cargo on Snowflake](workspaces/snowflake.md)
-* [Use Cargo on Google BigQuery](workspaces/bigquery.md)
-* [Use Cargo on AWS Redshift](workspaces/redshift.md)
+* [Use Cargo on Snowflake](system-of-record-use-your-warehouse/snowflake.md)
+* [Use Cargo on Google BigQuery](system-of-record-use-your-warehouse/bigquery.md)
+* [Use Cargo on AWS Redshift](system-of-record-use-your-warehouse/redshift.md)
+
+## 🚠 System of record (use our warehouse)
+
+* [Use Cargo's Postgres Instance](system-of-record-use-our-warehouse/postgres.md)
+* [Copy of Use Cargo's Snowflake instance](system-of-record-use-our-warehouse/postgres-1.md)
+
+## 🗃 Load your datasets
+
+* [Load your datasets](load-your-datasets/postgres.md)
+* [Real time webhooks](load-your-datasets/real-time.md)
 
 ## 🚧 WORKFLOW ACTIONS
 
@@ -45,3 +51,7 @@
 * [Cognism](integrations/cognism.md)
 * [Waterfall](integrations/waterfall.md)
 * [People Data Labs](integrations/people-data-labs.md)
+* [⭐ Getting Started](integrations/getting-started/README.md)
+  * [🤖 AI powered](integrations/getting-started/ai-powered.md)
+  * [✍ Syntax](integrations/getting-started/syntax.md)
+  * [⚙ Architecture](integrations/getting-started/architecture.md)

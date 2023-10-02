@@ -6,16 +6,16 @@ description: This section gets you up and running with building workflows in Car
 
 ### Create a Workspace
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
 
 ### Setup a system of record _(Optional)_
 
 _If you don't have a system of record to link to, you can directly skip this step and jump to the connector section below._
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt=""><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt=""><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
 
 1. If you want to plug Cargo on top of your data warehouse, Click on 'Settings' in the side bar
-2. Select the system of record to connect to: [Redshift](workspaces/redshift.md), [Snowflake](workspaces/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
+2. Select the system of record to connect to: [Redshift](../../system-of-record-use-your-warehouse/redshift.md), [Snowflake](../../system-of-record-use-your-warehouse/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
 3. Follow the corresponding instructions. This step is often made with your data engineer.
 4. Define the 'Sync Schedule' in the settings options. You can choose at custom interval, every 10 minutes, hours, daily and weekly.
 
