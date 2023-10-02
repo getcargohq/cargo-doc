@@ -10,7 +10,7 @@ Connect your hubspot to personalize your engagement or update contact and compan
 
 To connect to Hubspot, click on authenticate and log in with your credentials
 
-<figure><img src="../.gitbook/assets/screenshot_1 (1).png" alt=""><figcaption><p>Hubspot Authentication</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_1 (1).png" alt=""><figcaption><p>Hubspot Authentication</p></figcaption></figure>
 
 
 

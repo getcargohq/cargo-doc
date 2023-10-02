@@ -12,7 +12,7 @@ Empower your Salesloft usage with your customer data
 
 Salesloft requires an API key. To find the API key, navigate to the [Salesloft Dashboard Settings](https://accounts.salesloft.com/oauth/applications).
 
-<figure><img src="../.gitbook/assets/destination-salesloft-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/destination-salesloft-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 In the Salesloft settings, an API Key can be created on this page.
 

@@ -12,7 +12,7 @@ Create/Remove prospects or accounts from Outreach and add prospects to a sequenc
 
 Click on the authenticate button and log in with your credentials
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-03-13 à 09.47.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-03-13 à 09.47.58.png" alt=""><figcaption></figcaption></figure>
 
 ### Available actions
 

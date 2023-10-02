@@ -19,7 +19,7 @@ Sync lead and prospect data from Cargo to Pipedrive.
 * Select the API tab
 * Copy the API token and paste it into Cargo
 
-<figure><img src="../.gitbook/assets/Untitled.png" alt=""><figcaption><p>Pipedrive API token</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Untitled.png" alt=""><figcaption><p>Pipedrive API token</p></figcaption></figure>
 
 ### Available actions
 

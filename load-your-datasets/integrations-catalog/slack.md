@@ -10,7 +10,7 @@ Connect your Slack to send notifications to person or channels in your organizat
 
 To connect to Slack, click on authenticate button and log in with your credentials. Allow the required permissions.
 
-<figure><img src="../.gitbook/assets/screenshot_1 (2).png" alt=""><figcaption><p>Allow Cargo to access Slack workspace</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_1 (2).png" alt=""><figcaption><p>Allow Cargo to access Slack workspace</p></figcaption></figure>
 
 ### Available actions
 

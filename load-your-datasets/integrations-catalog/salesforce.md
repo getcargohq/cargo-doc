@@ -10,7 +10,7 @@ With the Salesforce destination, Cargo can both create and update standard or cu
 
 To connect to Salesforce, click on authenticate and log in with your credentials
 
-<figure><img src="../.gitbook/assets/screenshot_1 (3).png" alt=""><figcaption><p>Salesforce Authentication</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_1 (3).png" alt=""><figcaption><p>Salesforce Authentication</p></figcaption></figure>
 
 ### Available actions
 

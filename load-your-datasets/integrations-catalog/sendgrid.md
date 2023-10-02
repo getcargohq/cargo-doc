@@ -15,7 +15,7 @@ Create a **Restricted access key** for Cargo, with the following access
 * &#x20;**Mail Send** (Full access)
 * **Template Engine** (Read access)
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-07-11 à 10.45.42.png" alt=""><figcaption><p>Create restricted access API Key on Sendgrid</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-07-11 à 10.45.42.png" alt=""><figcaption><p>Create restricted access API Key on Sendgrid</p></figcaption></figure>
 
 Finally, put the generated key in the connector config on Cargo.
 

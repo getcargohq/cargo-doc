@@ -12,7 +12,7 @@ Cargo is the first composable revenue platform that unlocks data access for reve
 
 ## Where to start <a href="#where-to-start" id="where-to-start"></a>
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="integrations/getting-started/">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="workflow-actions/delay.md">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">🚢 <a href="integrations/salesforce.md">Explore integrations</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="introduction/getting-started/">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="workflow-actions/delay.md">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">🚢 <a href="load-your-datasets/integrations-catalog/salesforce.md">Explore integrations</a></td><td></td></tr></tbody></table>
 
 
 
@@ -22,17 +22,17 @@ Cargo is the first composable revenue platform that unlocks data access for reve
 
 Each account has one or more workspaces. A workspace serves as a standalone environment for your revenue orchestration.. Connectors, workflows, and analytics are not shared across workspace.
 
-#### Connectors&#x20;
+#### System of Record
 
-Connectors are integrations with 3rd party systems. Connectors are end systems, used to trigger actions in your GTM tools.
-
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 14.52.56.png" alt=""><figcaption><p><em>Connectors Catalog</em></p></figcaption></figure>
-
-#### System of Records
-
-Cargo connects to data warehouses like Snowflake, BigQuery, and Redshift.  It also support the webhook connection to trigger a workflow in response to specific events or conditions.
+Cargo connects to data warehouses like Snowflake, BigQuery, and Redshift.
 
 <figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 14.53.09.png" alt=""><figcaption><p><em>Supported System of Records</em></p></figcaption></figure>
+
+#### Connectors - loads your datasets&#x20;
+
+Connectors are integrations with 3rd party systems. Connectors are end systems, used to trigger actions in your GTM tools.  It also support the webhook connection to trigger a workflow in response to specific events or conditions.
+
+<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 14.52.56.png" alt=""><figcaption><p><em>Connectors Catalog</em></p></figcaption></figure>
 
 **Entities**
 
@@ -70,4 +70,4 @@ Want to know about the latest features and bug fixes in our product? Check out o
 
 ## 🚑 Need help?
 
-You can always contact us via aurelien@getcargo.io or via the live chat in the bottom left corner.
+You can always contact us via tariq@getcargo.io or via the live chat in the bottom left corner.

@@ -12,7 +12,7 @@ Connect Cognism to further enrich your contact and company data.
 * Click **Tokens**. If you cannot access **Tokens** or don't see it, contact your Cognism account admin.
 * Generate a new API token, click **+ Create** **New**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-08 at 1.19.03 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-08 at 1.19.03 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Available actions
 

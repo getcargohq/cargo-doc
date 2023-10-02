@@ -10,7 +10,7 @@ Connect your Lemlist to personalize and automate your email campaigns
 
 Log In to your Lemlist Account. Click the Settings tab in the left-side navigation and then click on Integrations. Copy your API key and paste it in the “API Key” field on Cargo
 
-<figure><img src="../.gitbook/assets/screenshot_1.png" alt=""><figcaption><p>Lemlist integrations settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/screenshot_1.png" alt=""><figcaption><p>Lemlist integrations settings</p></figcaption></figure>
 
 
 
