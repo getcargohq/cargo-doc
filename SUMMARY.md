@@ -50,15 +50,21 @@
 
 ## 🥍 Segments
 
-## 🔫 Workflows
+* [Build a segment on your entity](segments/build-a-segment-on-your-entity.md)
+* [Segment change triggers](segments/segment-change-triggers.md)
+* [Filtering 101](segments/filtering-101.md)
 
-## 🚧 WORKFLOW ACTIONS
+## 🔫 WORKFLOWS
 
-* [🕐 Delay](workflow-actions/delay.md)
-* [🍕 Split](workflow-actions/split.md)
-* [🔎 Entity lookup](workflow-actions/entity-lookup.md)
-* [📍 Entity upsert](workflow-actions/entity-upsert.md)
-* [🔆 Enrichment](workflow-actions/enrichment.md)
-* [🛣 Routing](workflow-actions/routing.md)
-* [💯 Scoring](workflow-actions/scoring.md)
-* [👨🏫 Round robin](workflow-actions/round-robin.md)
+* [Using the Workflow Editor](workflows/using-the-workflow-editor/README.md)
+  * [Nodes 101](workflows/using-the-workflow-editor/nodes-101/README.md)
+    * [🕐 Delay](workflows/using-the-workflow-editor/nodes-101/delay.md)
+    * [🍕 Split](workflows/using-the-workflow-editor/nodes-101/split.md)
+    * [🔎 Entity lookup](workflows/using-the-workflow-editor/nodes-101/entity-lookup.md)
+    * [📍 Entity upsert](workflows/using-the-workflow-editor/nodes-101/entity-upsert.md)
+    * [🔆 Enrichment](workflows/using-the-workflow-editor/nodes-101/enrichment.md)
+    * [🛣 Routing](workflows/using-the-workflow-editor/nodes-101/routing.md)
+    * [💯 Scoring](workflows/using-the-workflow-editor/nodes-101/scoring.md)
+    * [👨🏫 Round robin](workflows/using-the-workflow-editor/nodes-101/round-robin.md)
+  * [Expressions 101](workflows/using-the-workflow-editor/expressions-101.md)
+  * [Triggering a workflow](workflows/using-the-workflow-editor/triggering-a-workflow.md)
