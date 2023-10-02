@@ -7,8 +7,6 @@ description: >-
 
 # 🛣 Routing
 
-
-
 **How to use it:**
 
 {% embed url="https://app.guideflow.com/player/qkqmlxs1px" %}
