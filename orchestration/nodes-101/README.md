@@ -1,0 +1,56 @@
+# ✨ Nodes 101
+
+
+
+## **Functional Nodes:**&#x20;
+
+These are specific actions or tasks.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td><p>             <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Delay <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></p><p>      <em>Pause your workflow</em></p></td><td></td></tr><tr><td></td><td>               <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Split <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>   Divide run into branches</td></tr><tr><td></td><td>       <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Entity lookup <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>       Search and retrieve</td></tr><tr><td></td><td>       <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Entity upsert <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td><p>        Update/ add data</p><p></p></td></tr><tr><td></td><td>         <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Enrichment <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>       Retrieve information</td></tr><tr><td></td><td>           <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Routing <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>  Directing to the right rep</td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Territory <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td><p>   Assign to sales territory</p><p>  </p></td></tr><tr><td></td><td>           <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Scoring <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>          Assign a rating</td></tr><tr><td></td><td>       <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Round robin <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>Distribute lead across reps</td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Variable <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>   Define a key value store</td></tr><tr><td></td><td>             <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Load <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td><p>      Load batch to entity</p><p></p></td></tr><tr><td></td><td>           <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> Memory <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span></td><td>          Key-value store</td></tr></tbody></table>
+
+
+
+## **Integrations:** Send and receive data to your GTM tools
+
+
+
+### Sales tools
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>         <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/salesforce">Salesforce</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>         <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/onesignal">OneSignal</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/hubspot">Hubspot</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/">Pipedrive</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>             <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/s">Slack</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr></tbody></table>
+
+
+
+
+
+### Marketing tools
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>         <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/onesignal">OneSignal</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/hubspot">Hubspot</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/sendgrid">Sendgrid</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>            <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/lemlist">Lemlist</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>   <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/lagrowthmachine">LaGrowthMachine</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>       <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/captain-data">Captain data</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/o">Outreach</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/sales">Salesloft</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>        <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/customerio">Customer.io</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/apolloio">Apollo.io</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr></tbody></table>
+
+
+
+
+
+
+
+### 3rd party-enrichment
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>       <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/captain-data">Captain data</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>           <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/clearbit">Clearbit</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/o">Outreach</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/apolloio">Apollo.io</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>         <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/zoominfo">Zoominfo</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/cognism">Cognism</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>          <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/waterfall">Waterfall</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr><tr><td></td><td>   <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> <a href="https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/~/changes/67/load-your-datasets/integrations-catalog/p">People Data Labs</a> <span data-gb-custom-inline data-tag="emoji" data-code="2b50">⭐</span> </td><td></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+

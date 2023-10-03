@@ -2,32 +2,20 @@
 description: This section gets you up and running with building workflows in Cargo
 ---
 
-# ⭐ How Cargo Works
-
-## About Cargo
-
-Cargo is the first composable revenue platform that unlocks data access for revenue teams to automate their data operations. It provides a simple layer enabling them to orchestrate use cases like ABM, account scoring, lead routing and more, … to generate more revenue.
-
-## Dive right in <a href="#where-to-start" id="where-to-start"></a>
-
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="./">⭐️ </a>Use AI provide context at scale <a href="./">⭐</a></td><td></td></tr><tr><td></td><td align="center"><p>🚧 Clean your </p><p>CRM 🚧</p></td><td></td></tr><tr><td></td><td align="center"><p>🚢 <a href="integrations/integrations-catalog/salesforce.md">Explore </a></p><p><a href="integrations/integrations-catalog/salesforce.md">integrations</a> 🚢</p></td><td></td></tr></tbody></table>
-
-
-
-## Cargo 101
+# ⭐ Copy of How Cargo Works
 
 ### Create a Workspace
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
 
 ### Setup a system of record _(Optional)_
 
 _If you don't have a system of record to link to, you can directly skip this step and jump to the connector section below._
 
-<figure><img src=".gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt=""><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt=""><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
 
 1. If you want to plug Cargo on top of your data warehouse, Click on 'Settings' in the side bar
-2. Select the system of record to connect to: [Redshift](storage/setup-a-system-of-record/redshift.md), [Snowflake](storage/setup-a-system-of-record/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
+2. Select the system of record to connect to: [Redshift](../storage/setup-a-system-of-record/redshift.md), [Snowflake](../storage/setup-a-system-of-record/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
 3. Follow the corresponding instructions. This step is often made with your data engineer.
 4. Define the 'Sync Schedule' in the settings options. You can choose at custom interval, every 10 minutes, hours, daily and weekly.
 
