@@ -1,3 +1,0 @@
-# 🕊 Activity filters
-
-Coming soon

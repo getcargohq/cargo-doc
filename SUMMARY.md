@@ -29,15 +29,18 @@
   * [Use Cargo's Postgres Instance](storage/setup-a-system-of-record/postgres.md)
   * [Use Cargo's Snowflake instance](storage/setup-a-system-of-record/postgres-1.md)
 * [📤 Load your datasets](storage/postgres.md)
-* [🗃 Creating entities in Cargo](storage/creating-entities-in-cargo/README.md)
-  * [🔧 Add new columns to your entity](storage/creating-entities-in-cargo/add-new-columns-to-your-entity.md)
+* [🗃 Creating entities in Cargo](storage/creating-entities-in-cargo.md)
+* [🔁 Relationships](storage/relationships.md)
+* [📊 Columns](storage/columns/README.md)
+  * [🔧 Add new columns to your entity](storage/columns/add-new-columns-to-your-entity.md)
+  * [🔜 Adding metrics columns](storage/columns/adding-metrics-columns.md)
 
 ## 🥍 Segmentation
 
 * [⚙ Introduction](segmentation/introduction.md)
-* [🧢 Filtering 101](segmentation/filtering-101/README.md)
-  * [💠 One to many relationship filters](segmentation/filtering-101/one-to-many-relationship-filters.md)
-  * [🕊 Activity filters](segmentation/filtering-101/activity-filters.md)
+* [🧢 Filtering 101](segmentation/filtering-101.md)
+* [💠 One to many relationship filters](segmentation/one-to-many-relationship-filters.md)
+* [🕊 Activity filters](segmentation/activity-filters.md)
 * [👂 Segment change triggers](segmentation/segment-change-triggers.md)
 
 ## 🔫 Orchestration

@@ -23,13 +23,13 @@ This is where entity-level scoring comes in. Let's delve deeper with an example 
 * In your Cargo workspace, navigate to the entities tab and select the contacts entity (for instance)
 * Click the three-dots on the top-right of your screen and select the 'columns tab'
 
-![](<../.gitbook/assets/entities\_contacts 2023-09-29 at 05.40.22.png>)
+<figure><img src="../.gitbook/assets/entities_contacts 2023-09-29 at 05.40.22.png" alt="" width="264"><figcaption></figcaption></figure>
 
 
 
 * Add a computed column and click add to insert new fields
 
-![](<../.gitbook/assets/Screenshot 2023-10-03 at 11.22.39.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-03 at 11.22.39.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -95,7 +95,7 @@ This is where entity-level scoring comes in. Let's delve deeper with an example 
 
 * You can now use this column in your points-based scoring as shown above
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-29 at 06.13.33 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-29 at 06.13.33 (1).png" alt="" width="269"><figcaption></figcaption></figure>
 
 * You can set up your own recipe if you’d like to play around with the prompt. Here’s the kind of prompt we were using.
 
@@ -109,9 +109,7 @@ This is where entity-level scoring comes in. Let's delve deeper with an example 
 
 * Click on "Create Segment" and you’re good to go.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-29 at 06.15.10.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-29 at 06.15.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-29 at 06.15.10.png" alt="" width="168"><figcaption></figcaption></figure>
 
 
 
