@@ -89,6 +89,7 @@
   * [Cognism](integrations/integrations-catalog/cognism.md)
   * [Waterfall](integrations/integrations-catalog/waterfall.md)
   * [People Data Labs](integrations/integrations-catalog/people-data-labs.md)
+  * [Snov](integrations/integrations-catalog/snov.md)
 
 ***
 
