@@ -73,6 +73,7 @@
   * [Hubspot](integrations/integrations-catalog/hubspot.md)
   * [Sendgrid](integrations/integrations-catalog/sendgrid.md)
   * [Lemlist](integrations/integrations-catalog/lemlist.md)
+  * [Lusha](integrations/integrations-catalog/lusha.md)
   * [LaGrowthMachine](integrations/integrations-catalog/lagrowthmachine.md)
   * [Captain data](integrations/integrations-catalog/captain-data.md)
   * [Slack](integrations/integrations-catalog/slack.md)
