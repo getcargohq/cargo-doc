@@ -77,7 +77,7 @@
   * [LaGrowthMachine](integrations/integrations-catalog/lagrowthmachine.md)
   * [Captain data](integrations/integrations-catalog/captain-data.md)
   * [Slack](integrations/integrations-catalog/slack.md)
-  * [Google sheets](integrations/integrations-catalog/google-sheets.md)
+  * [Google sheets](integrations/integrations-catalog/clearbit/google-sheets.md)
   * [Clearbit](integrations/integrations-catalog/clearbit.md)
   * [Outreach](integrations/integrations-catalog/outreach.md)
   * [Salesloft](integrations/integrations-catalog/salesloft.md)
@@ -90,6 +90,8 @@
   * [Waterfall](integrations/integrations-catalog/waterfall.md)
   * [People Data Labs](integrations/integrations-catalog/people-data-labs.md)
   * [Snov](integrations/integrations-catalog/snov.md)
+  * [ZeroBounce](integrations/integrations-catalog/zerobounce.md)
+  * [NeverBounce](integrations/integrations-catalog/neverbounce.md)
 
 ***
 
