@@ -28,6 +28,18 @@ Cargo uses some Google APIs that must be enabled. To do so:
    1. BigQuery API
    2. Cloud Resource Manager API.
 
+
+
+## Create a storage bucket
+
+To enable Cargo to load and unload data from BigQuery, we need access to a dedicated storage bucket for this purpose.&#x20;
+
+To create a new bucket:
+
+* Go to the Google Cloud Console.
+* Search Object storage in the search bar
+* Create a new bucket and follow the steps
+
 ## Create a Service Account
 
 Cargo will use this service account to access the APIs enabled in the previous step.
@@ -43,7 +55,7 @@ To create a service account, follow these steps:
 7. **Grant** the following roles:
    1. BigQuery Data Editor
    2. BigQuery Job User
-   3. Storage Admin.
+   3. Storage Object User
 8. Click on **Done**.
 
 ## Generate a Key
