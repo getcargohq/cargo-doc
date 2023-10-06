@@ -12,7 +12,7 @@ Cargo is the first composable revenue platform that unlocks data access for reve
 
 ## Where to start <a href="#where-to-start" id="where-to-start"></a>
 
-<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="../">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="../orchestration/nodes-101/delay.md">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">🚢 <a href="../integrations/integrations-catalog/salesforce.md">Explore integrations</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th></tr></thead><tbody><tr><td></td><td align="center"><a href="../getting-started/set-up-your-cargo-in-5-mins.md">⭐️ </a><a href="https://docs.getcargo.io/getting-started">Getting Started</a></td><td></td></tr><tr><td></td><td align="center">🚧 <a href="../orchestration/nodes-101/delay.md">Workflow actions</a></td><td></td></tr><tr><td></td><td align="center">🚢 <a href="../integrations/integrations-catalog/salesforce.md">Explore integrations</a></td><td></td></tr></tbody></table>
 
 
 

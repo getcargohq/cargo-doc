@@ -2,7 +2,8 @@
 
 ## 🎉 Getting started
 
-* [⭐ How Cargo Works](README.md)
+* [🎉 Welcome to Cargo](README.md)
+* [⭐ Set up your Cargo in 5 mins](getting-started/set-up-your-cargo-in-5-mins.md)
 * [🎉 Basic concepts](getting-started/basic-concepts.md)
 * [⚙ Advanced concepts](getting-started/advanced-concepts.md)
 
@@ -14,9 +15,9 @@
 
 ## ✍ Expressions
 
-* [🧢 Expression 101](expressions/expression-101.md)
+* [🧢 Expressions 101](expressions/expressions-101.md)
 * [🤖 Write AI prompts](expressions/write-ai-prompts.md)
-* [👩💻 JS 101](expressions/js-101.md)
+* [👩💻 Use JS in Cargo](expressions/use-js-in-cargo.md)
 * [🤸♂ Use recipes from our community](expressions/use-recipes-from-our-community.md)
 
 ## 🚠 Storage
