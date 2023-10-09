@@ -4,7 +4,7 @@ description: >-
   platform to build your future-proofed revenue architecture.
 ---
 
-# 🎉 Basic concepts
+# 🧢 Basic concepts
 
 
 

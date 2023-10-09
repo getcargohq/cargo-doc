@@ -1,4 +1,4 @@
-# 💯 PLG: Entity-level scoring
+# 🏎 PLG: Entity-level scoring
 
 By the end of this tutorial, you will understand how to set up entity-level scoring in Cargo, use AI to enhance your scores, and effectively create segments based on those scores
 

@@ -1,26 +1,27 @@
 # Table of contents
 
-## 🎉 Getting started
+## Getting started
 
 * [🎉 Welcome to Cargo](README.md)
 * [⭐ Set up your Cargo in 5 mins](getting-started/set-up-your-cargo-in-5-mins.md)
-* [🎉 Basic concepts](getting-started/basic-concepts.md)
+* [🧢 Basic concepts](getting-started/basic-concepts.md)
 * [⚙ Advanced concepts](getting-started/advanced-concepts.md)
 
-## 🏎 Use Cases
+## Use Cases
 
-* [💯 PLG: Entity-level scoring](use-cases/plg-entity-level-scoring.md)
-* [👥 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
+* [🏎 PLG: Entity-level scoring](use-cases/plg-entity-level-scoring.md)
+* [🤼 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
 * [🔔 Inbound: Inbound leads routing](use-cases/inbound-inbound-leads-routing.md)
+* [⛹♀ PLS: Spotting decision makers in your free trial signups with AI](use-cases/pls-spotting-decision-makers-in-your-free-trial-signups-with-ai.md)
 
-## ✍ Expressions
+## Expressions
 
 * [🧢 Expressions 101](expressions/expressions-101.md)
 * [🤖 Write AI prompts](expressions/write-ai-prompts.md)
 * [👩💻 Use JS in Cargo](expressions/use-js-in-cargo.md)
 * [🤸♂ Use recipes from our community](expressions/use-recipes-from-our-community.md)
 
-## 🚠 Storage
+## Storage
 
 * [⚙ Introduction](storage/introduction.md)
 * [🏛 Setup a system of record](storage/setup-a-system-of-record/README.md)
@@ -36,7 +37,7 @@
   * [🔧 Add new columns to your entity](storage/columns/add-new-columns-to-your-entity.md)
   * [🔜 Adding metrics columns](storage/columns/adding-metrics-columns.md)
 
-## 🥍 Segmentation
+## Segmentation
 
 * [⚙ Introduction](segmentation/introduction.md)
 * [🧢 Filtering 101](segmentation/filtering-101.md)
@@ -44,7 +45,7 @@
 * [🕊 Activity filters](segmentation/activity-filters.md)
 * [👂 Segment change triggers](segmentation/segment-change-triggers.md)
 
-## 🔫 Orchestration
+## Orchestration
 
 * [🖌 Using the Workflow Editor](orchestration/using-the-workflow-editor.md)
 * [✨ Nodes 101](orchestration/nodes-101/README.md)
@@ -66,7 +67,7 @@
   * [🚽 Push all entity records](orchestration/triggering-a-workflow/push-all-entity-records.md)
 * [📕 Workflow versioning](orchestration/workflow-versioning.md)
 
-## 🔩 Integrations
+## Integrations
 
 * [📖 Integrations catalog](integrations/integrations-catalog/README.md)
   * [Salesforce](integrations/integrations-catalog/salesforce.md)

@@ -1,4 +1,4 @@
-# 👥 Outbound: Enrich accounts to find stakeholders
+# 🤼 Outbound: Enrich accounts to find stakeholders
 
 Multi-stakeholder outbound sequences are proven to be more effective than single-stakeholder reach outs. By the end of this tutorial, you will be able to enrich a segment containing accounts to identify stakeholders with specific job titles, and then crafted ensuring the right outreach for each.
 
