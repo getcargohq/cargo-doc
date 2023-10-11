@@ -6,6 +6,8 @@ Multi-stakeholder outbound sequences are proven to be more effective than single
 
 ## **Step 1: Construct a Segment with the Correct Filters**
 
+<figure><img src="../.gitbook/assets/brandbird (8) (2).png" alt=""><figcaption></figcaption></figure>
+
 **Outcome:** Your goal here is to have a precise segment of accounts, with the right filters applied, making sure there’s a column containing a company domain.
 
 * Navigate to the ‘Entities’ section within your Cargo workspace
@@ -20,7 +22,11 @@ Multi-stakeholder outbound sequences are proven to be more effective than single
 
 * In the ‘Workflows’ section, create a new workflow based on the ‘Accounts’ entity (or the relevant one in your case)
 
-### Step 3: Use Data Provider to Find Stakeholders
+<figure><img src="../.gitbook/assets/brandbird (11) (1).png" alt=""><figcaption></figcaption></figure>
+
+## Step 3: Use a Data Provider to Find Stakeholders
+
+<figure><img src="../.gitbook/assets/brandbird (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Outcome:** Use Apollo (or your favourite data provider) to enrich company domain information to find a list stakeholders that match a predefined list of job titles.
 
@@ -30,7 +36,9 @@ Multi-stakeholder outbound sequences are proven to be more effective than single
 * If Apollo is successful in enriching the account with the provided details, it should display an ‘Out’ display, with each stakeholder being a data object in the resulting output
 * Use a filter node to continue the workflow only if the results from Apollo are not empty
 
-### Step 4: Index the Found Employee Profiles
+## Step 4: Index the Found Employee Profiles
+
+<figure><img src="../.gitbook/assets/brandbird (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Outcome**: The enriched employee profiles obtained need to be indexed and allocated to a specific outreach route, each designed for different job titles like founder, revenue operations manager, and head of data.
 
