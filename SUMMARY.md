@@ -26,6 +26,7 @@
 * [⚙ Introduction](storage/introduction.md)
 * [🏛 Setup a system of record](storage/setup-a-system-of-record/README.md)
   * [Use Cargo on Snowflake](storage/setup-a-system-of-record/snowflake.md)
+  * [Use Cargo on PostgreSQL](storage/setup-a-system-of-record/snowflake-1.md)
   * [Use Cargo on Google BigQuery](storage/setup-a-system-of-record/bigquery.md)
   * [Use Cargo on AWS Redshift](storage/setup-a-system-of-record/redshift.md)
   * [Use Cargo's Postgres Instance](storage/setup-a-system-of-record/postgres.md)
