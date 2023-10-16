@@ -1,13 +1,5 @@
 # 🔧 Add new columns to your entity
 
-_By the end of this section, you should be able to:_
-
-1. Know the difference between a custom column and a computed column
-2. Know how to create a custom column in your entity
-3. Know how to create a computed column in your entity
-
-
-
 Entities are a high-level data abstraction, while workflows handle data record by record. To bridge this gap and offer flexibility, Cargo provides custom and computed columns.
 
 ## **1. Custom Columns:**

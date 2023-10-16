@@ -1,3 +1,9 @@
+---
+description: >-
+  Relationships allow you to build a 360-degree view on your entity data,
+  effectively joining different entities together using common identifier
+---
+
 # 🔁 Relationships
 
 ## Step 1: Build a relationship between the SalesforceAccounts and Audiences entity

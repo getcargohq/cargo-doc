@@ -9,12 +9,4 @@ There’s two key messages you need to grasp from this section:
 
 The Workflow Editor is where the magic happens. It's like a puzzle where pieces (nodes) fit together to create a full picture, automating complex processes such as scoring, routing, and enrichment.
 
-### What you need to know
-
-* How nodes work
-* How to write expressions
-* How to trigger a workflow\
-  \- Segment-based\
-  \- Third-party based (webhooks)\
-  \- Enrolment rules\
-  \- Test sample
+By the end of this section you will have grasped how nodes work, how to write expressions, how to trigger a workflow based on different conditions\
