@@ -16,7 +16,9 @@
 
 ## Expressions
 
-* [🧢 Expressions 101](expressions/expressions-101.md)
+* [⚙ Introduction](expressions/introduction.md)
+* [🧢 Expressions 101](expressions/expressions-101/README.md)
+  * [🧾 Javascript snippets](expressions/expressions-101/javascript-snippets.md)
 * [🤖 Write AI prompts](expressions/write-ai-prompts.md)
 * [👩💻 Use JS in Cargo](expressions/use-js-in-cargo.md)
 * [🤸♂ Use recipes from our community](expressions/use-recipes-from-our-community.md)

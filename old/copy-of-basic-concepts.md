@@ -60,3 +60,7 @@ You can trigger a workflow from a segment made on top of your entities, or from 
 
 Each workflow features an analytics panel that keep track of each version of the workflows, and monitor execution status.
 
+
+
+{% embed url="https://app.guideflow.com/embed/zpe5e9a8pn" %}
+
