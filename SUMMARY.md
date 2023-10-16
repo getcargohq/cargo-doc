@@ -98,6 +98,7 @@
   * [Snov](integrations/integrations-catalog/snov.md)
   * [ZeroBounce](integrations/integrations-catalog/zerobounce.md)
   * [NeverBounce](integrations/integrations-catalog/neverbounce.md)
+  * [Hunter](integrations/integrations-catalog/hunter.md)
 
 ***
 
