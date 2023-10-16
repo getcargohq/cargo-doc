@@ -28,27 +28,53 @@ _Hint: You can rename the nodes to whatever you please_
 
 <figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.50.12.png" alt=""><figcaption></figcaption></figure>
 
-## Fall back logic
+## Autocompletion
 
-A very powerful Cargo feature is the ability to set Fallback Values.
+When you want to preview which data you have available to use in an expression entering dot ( . ) character within the curly brackets ( \{{ \}} ) will trigger a preview of available nodes, as in the GIF below.
+
+In the example below, we're able to select the email option after having entered the '.' character after start, i.e. <mark style="color:green;">\{{nodes.start.</mark>
+
+<figure><img src="../../.gitbook/assets/Autocomplete (2) (1).gif" alt=""><figcaption></figcaption></figure>
+
+_Hint: only runs that have already executed before your node will be available in the preview, as otherwise the preview has no means of knowing whether they exist_
+
+
+
+## Node output
+
+Whenever a node executes you can inspect the information that went into and and was outputted from the node using the 'IN' and 'OUT' buttons on the top right of the Edit modal on the right of the screen.
+
+
+
+## Fallback logic
+
+A very powerful Cargo feature is the ability to set fallback values.
 
 This can be used for occasions when you know that data being returned will be inconsistent in some way. It is used as a fallback logic to deal with inconsistent data. It takes the first attribute, and if empty, take the second one.
 
 To use multiple attributes in a field, you can use the double pipe “||”.&#x20;
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 16.28.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt=""><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
 
 
 
 **The fallback logic is often used within a waterfall enrichment step**: when pushing an enriched data to your CRM, you want to make sure something is pushed. For instance, you have two different sources of email data, you put both to maximize coverage rate.
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt=""><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
 
 
+##
+
+##
+
+##
+
+##
+
+##
 
 ## You can execute anyJavaScript operator within an expression.
 
-More here
+[More here](https://docs.getcargo.io/expressions/expressions-101/javascript-snippets)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-05-08 at 7.58.35 PM.png" alt=""><figcaption><p>Example of Javascript expression</p></figcaption></figure>
 

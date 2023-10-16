@@ -13,6 +13,7 @@
 * [🤼 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
 * [🔔 Inbound: Inbound leads routing](use-cases/inbound-inbound-leads-routing.md)
 * [⛹♀ PLS: Spotting decision makers in your free trial signups with AI](use-cases/pls-spotting-decision-makers-in-your-free-trial-signups-with-ai.md)
+* [🏹 PLS: Enrich, summarise and route a lead to your sales rep](use-cases/pls-enrich-summarise-and-route-a-lead-to-your-sales-rep.md)
 
 ## Expressions
 
