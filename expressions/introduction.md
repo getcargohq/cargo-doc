@@ -31,17 +31,17 @@ JavaScript tricks and tips
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-10-16 at 12.32.16.png" alt=""><figcaption></figcaption></figure>
 
-### **Execute vanilla Javacript:**&#x20;
+### **Write AI Prompts:**&#x20;
+
+Integrating AI logic into your nodes
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-16 at 12.48.38.png" alt="" width="375"><figcaption></figcaption></figure>
+
+### **Execute a Javascript function:**&#x20;
 
 Write your own code where needed
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-10-16 at 10.16.35.png" alt="" width="299"><figcaption></figcaption></figure>
 
-### **AI Prompts:**&#x20;
-
-Integrating AI logic into your nodes
-
 &#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-16 at 12.48.38.png" alt="" width="375"><figcaption></figcaption></figure>
 
