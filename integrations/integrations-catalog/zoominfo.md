@@ -2,7 +2,7 @@
 description: This page explains how to setup the Zoominfo integration on Cargo.
 ---
 
-# Zoominfo
+# 🔭 Zoominfo
 
 Connect Zoominfo to further enrich your contact and company data.
 

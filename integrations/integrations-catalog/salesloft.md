@@ -2,7 +2,7 @@
 description: This page explains how to setup the Salesloft integration on Cargo.
 ---
 
-# Salesloft
+# 📤 Salesloft
 
 Empower your Salesloft usage with your customer data
 

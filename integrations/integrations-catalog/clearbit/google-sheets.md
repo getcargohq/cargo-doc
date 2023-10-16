@@ -2,7 +2,7 @@
 description: This page explains how to setup the Google sheets integration on Cargo.
 ---
 
-# Google sheets
+# 🧮 Google sheets
 
 Push data into your google sheets&#x20;
 

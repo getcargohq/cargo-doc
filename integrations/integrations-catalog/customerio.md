@@ -2,7 +2,7 @@
 description: This page explains how to setup the Customer.io integration on Cargo.
 ---
 
-# Customer.io
+# 🍧 Customer.io
 
 Build robust engagement campaigns on Customer.io using rich customer data from Cargo
 

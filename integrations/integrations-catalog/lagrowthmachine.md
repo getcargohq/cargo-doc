@@ -2,7 +2,7 @@
 description: This page explains how to setup LGM integration on Cargo.
 ---
 
-# LaGrowthMachine
+# 📤 LaGrowthMachine
 
 Connect your LGM to manage your leads and audiences.
 

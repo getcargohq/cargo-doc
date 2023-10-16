@@ -2,7 +2,7 @@
 description: This page explains how to setup the Slack integration on Cargo.
 ---
 
-# Slack
+# 🎱 Slack
 
 Connect your Slack to send notifications to person or channels in your organization
 

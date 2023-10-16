@@ -2,7 +2,7 @@
 description: This page explains how to setup the Pipedrive integration on Cargo.
 ---
 
-# Pipedrive
+# 🪅 Pipedrive
 
 Sync lead and prospect data from Cargo to Pipedrive.
 

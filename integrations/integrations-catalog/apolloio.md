@@ -2,7 +2,7 @@
 description: This page explains how to setup the Apollo.io integration on Cargo.
 ---
 
-# Apollo.io
+# 🔭 Apollo.io
 
 Connect Apollo.io to further enrich your contact and account data.
 
