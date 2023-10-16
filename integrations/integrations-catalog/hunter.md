@@ -1,4 +1,4 @@
-# Hunter
+# 🚓 Hunter
 
 Connect your Hunter account to find and verify emails data.
 

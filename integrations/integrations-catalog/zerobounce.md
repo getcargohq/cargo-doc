@@ -2,7 +2,7 @@
 description: This page explains how to setup the ZeroBounce on Cargo.
 ---
 
-# ZeroBounce
+# 🚓 ZeroBounce
 
 Connect your ZeroBounce account to find and verify emails data.
 

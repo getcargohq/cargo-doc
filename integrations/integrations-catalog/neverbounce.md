@@ -2,7 +2,7 @@
 description: This page explains how to setup the NeverBounce on Cargo.
 ---
 
-# NeverBounce
+# 🚓 NeverBounce
 
 Connect your NeverBounce account to find and verify emails data.
 

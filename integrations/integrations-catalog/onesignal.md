@@ -2,7 +2,7 @@
 description: This page explains how to setup the OneSignal integration on Cargo.
 ---
 
-# OneSignal
+# 📤 OneSignal
 
 Use OneSignal to send SMS from Cargo.
 

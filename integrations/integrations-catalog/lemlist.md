@@ -2,7 +2,7 @@
 description: This page explains how to setup the Lemlist integration on Cargo.
 ---
 
-# Lemlist
+# 📤 Lemlist
 
 Connect your Lemlist to personalize and automate your email campaigns
 

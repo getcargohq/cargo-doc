@@ -2,7 +2,7 @@
 description: This page explains how to setup the Waterfall integration on Cargo.
 ---
 
-# Waterfall
+# 🔭 Waterfall
 
 Use our waterfall connector to get infos about a company and the persons working there.
 

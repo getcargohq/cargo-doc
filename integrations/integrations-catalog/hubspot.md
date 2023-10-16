@@ -2,7 +2,7 @@
 description: This page explains how to setup the Hubspot integration on Cargo.
 ---
 
-# Hubspot
+# 🪅 Hubspot
 
 Connect your hubspot to personalize your engagement or update contact and company records seamlessly.
 

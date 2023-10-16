@@ -2,7 +2,7 @@
 description: This page explains how to setup the Cognism integration on Cargo.
 ---
 
-# Cognism
+# 🔭 Cognism
 
 Connect Cognism to further enrich your contact and company data.
 

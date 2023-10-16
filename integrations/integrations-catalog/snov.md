@@ -2,7 +2,7 @@
 description: This page explains how to setup the Snov on Cargo.
 ---
 
-# Snov
+# 📤 Snov
 
 Connect your Snov.io account to find and verify emails data.
 

@@ -2,7 +2,7 @@
 description: This page explains how to setup the People Data Labs integration on Cargo.
 ---
 
-# People Data Labs
+# 🔭 People Data Labs
 
 Connect your People Data Labs account to enrich and search companies and persons data.
 

@@ -2,7 +2,7 @@
 description: This page explains how to setup the Outreach integration on Cargo.
 ---
 
-# Outreach
+# 🔭 Outreach
 
 Create/Remove prospects or accounts from Outreach and add prospects to a sequence
 

@@ -44,6 +44,8 @@ _Hint: only runs that have already executed before your node will be available i
 
 Whenever a node executes you can inspect the information that went into and and was outputted from the node using the 'IN' and 'OUT' buttons on the top right of the Edit modal on the right of the screen.
 
+<figure><img src="../../.gitbook/assets/in-out.gif" alt=""><figcaption></figcaption></figure>
+
 
 
 ## Fallback logic
@@ -61,16 +63,6 @@ To use multiple attributes in a field, you can use the double pipe “||”.&#x2
 **The fallback logic is often used within a waterfall enrichment step**: when pushing an enriched data to your CRM, you want to make sure something is pushed. For instance, you have two different sources of email data, you put both to maximize coverage rate.
 
 
-
-##
-
-##
-
-##
-
-##
-
-##
 
 ## You can execute anyJavaScript operator within an expression.
 

@@ -2,7 +2,7 @@
 description: This page explains how to setup Captain Data integration on Cargo.
 ---
 
-# Captain data
+# 📤 Captain data
 
 Connect your Captain data to manage launch workflows or retrieve jobs
 

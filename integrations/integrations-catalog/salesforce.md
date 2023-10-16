@@ -2,7 +2,7 @@
 description: This page explains how to setup the Salesforce integration on Cargo.
 ---
 
-# Salesforce
+# 🪅 Salesforce
 
 With the Salesforce destination, Cargo can both create and update standard or custom objects, and update any custom field values on those objects.
 

@@ -2,7 +2,7 @@
 description: This page explains how to setup the Http integration on Cargo.
 ---
 
-# HTTP
+# 🌐 HTTP
 
 Connect to any internal system, third-party API, or other web service.
 

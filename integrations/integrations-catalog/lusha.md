@@ -2,7 +2,7 @@
 description: This page explains how to setup the Lusha integration on Cargo.
 ---
 
-# Lusha
+# 🔭 Lusha
 
 Connect your Lusha to enrich your contacts and accounts.
 

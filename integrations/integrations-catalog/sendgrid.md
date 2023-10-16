@@ -2,7 +2,7 @@
 description: This page explains how to setup the Sendgrid integration on Cargo.
 ---
 
-# Sendgrid
+# 📤 Sendgrid
 
 Use Sendgrid to send template emails. Fill the handlebars values directly from Cargo.
 
