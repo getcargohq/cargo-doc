@@ -66,7 +66,6 @@
   * [🦳 Memory](orchestration/nodes-101/memory.md)
 * [🚀 Triggering a workflow](orchestration/triggering-a-workflow/README.md)
   * [🚽 Push all segment records](orchestration/triggering-a-workflow/push-all-segment-records.md)
-  * [👂 Push at segment change](orchestration/triggering-a-workflow/push-at-segment-change.md)
   * [🚽 Push all entity records](orchestration/triggering-a-workflow/push-all-entity-records.md)
   * [⏱ Real time webhooks](orchestration/triggering-a-workflow/real-time.md)
 * [📕 Workflow versioning](orchestration/workflow-versioning.md)
