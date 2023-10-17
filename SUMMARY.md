@@ -39,7 +39,6 @@
 * [🔁 Relationships](storage/relationships.md)
 * [📊 Columns](storage/columns/README.md)
   * [🔧 Add new columns to your entity](storage/columns/add-new-columns-to-your-entity.md)
-  * [🔜 Adding metrics columns](storage/columns/adding-metrics-columns.md)
 
 ## Segmentation
 
@@ -66,7 +65,6 @@
   * [🦳 Memory](orchestration/nodes-101/memory.md)
 * [🚀 Triggering a workflow](orchestration/triggering-a-workflow/README.md)
   * [🚽 Push all segment records](orchestration/triggering-a-workflow/push-all-segment-records.md)
-  * [🚽 Push all entity records](orchestration/triggering-a-workflow/push-all-entity-records.md)
   * [⏱ Real time webhooks](orchestration/triggering-a-workflow/real-time.md)
 * [📕 Workflow versioning](orchestration/workflow-versioning.md)
 
@@ -99,10 +97,3 @@
   * [🚓 Hunter](integrations/integrations-catalog/hunter.md)
   * [🚓 ZeroBounce](integrations/integrations-catalog/zerobounce.md)
   * [🚓 NeverBounce](integrations/integrations-catalog/neverbounce.md)
-
-***
-
-* [Old](old/README.md)
-  * [⚙ Copy of Advanced concepts](old/copy-of-advanced-concepts.md)
-  * [🎉 Copy of Basic concepts](old/copy-of-basic-concepts.md)
-  * [⭐ Copy of How Cargo Works](old/copy-of-how-cargo-works.md)

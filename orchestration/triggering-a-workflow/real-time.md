@@ -10,7 +10,9 @@ This can be pretty useful where workflow triggers are time-sensitive (e.g. handl
 
 
 
-**Note:** Webhooks![](<../../.gitbook/assets/Screenshot 2023-10-02 at 10.36.38.png>) send data directly to workflows, instead of creating a data set.
+**Note:** Webhooks send data directly to workflows, instead of creating a data set.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 10.36.38.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -20,14 +22,14 @@ This can be pretty useful where workflow triggers are time-sensitive (e.g. handl
 
 
 
-* **Step 2**: Navigate to the left column inside the workflow and copy the Cargo's URL to communicate with the webhook
+* **Step 2**: Navigate to the left column inside the workflow and **copy Cargo's URL** to communicate with the webhook
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 10.36.38.png" alt=""><figcaption></figcaption></figure>
 
 * **Step 3**: Paste the URL into your origin tool (e.g. Hubspot forms or Captain data)
 * **Step 4**: Send a test run and preview it in Cargo
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 10.37.51.png" alt=""><figcaption><p>You can click on each run to see it's execution details as well it's success status</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 10.37.51.png" alt="" width="563"><figcaption><p>You can click on each run to see it's execution details as well it's success status</p></figcaption></figure>
 
 
 

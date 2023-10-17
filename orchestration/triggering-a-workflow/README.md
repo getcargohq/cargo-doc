@@ -14,7 +14,7 @@ Play workflow using the chosen test sample:
 
 
 
-## Deploy to automatically enrol records from your segment
+## Automatically enrol records from your segment upon changes
 
 
 

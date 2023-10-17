@@ -1,2 +1,0 @@
-# 🚽 Push all entity records
-

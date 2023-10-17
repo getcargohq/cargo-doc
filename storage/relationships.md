@@ -10,13 +10,13 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.04.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.04.13.png" alt="" width="399"><figcaption></figcaption></figure>
 
 Pressing the above will open a modal like below. Below we go through what it means:
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.03.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.03.16.png" alt="" width="404"><figcaption></figcaption></figure>
 
 **Entity**: The other entity you want to build a relationship with, in this case it is 'Audiences'
 
@@ -32,7 +32,7 @@ Pressing the above will open a modal like below. Below we go through what it mea
 
 Navigate to the Audiences entity, and add a relationship. For the modal that appears, follow the same process as above but inverse your choices as show below
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.38.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.38.01.png" alt="" width="398"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.37.27.png" alt=""><figcaption><p>In this case, both SalesforceContacts and Audiences have many-to-many relationship possibilities, but this could have been different</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 10.37.27.png" alt="" width="404"><figcaption><p>In this case, both SalesforceContacts and Audiences have many-to-many relationship possibilities, but this could have been different</p></figcaption></figure>
 

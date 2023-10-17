@@ -21,7 +21,7 @@ Imagine connecting contact details from your Hubspot dataset with product usage 
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.03.06.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.03.06.png" alt=""><figcaption></figcaption></figure>
 * **Query it:** Use SQL to extract necessary data.&#x20;
 
 {% hint style="info" %}
@@ -44,7 +44,7 @@ ON [dataset_name_1].[id_column_dataset_name_!
 
 * **Preview**: Before moving on, check if the data looks right. Use column selectors for better clarity
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.26.47.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.26.47.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -54,7 +54,7 @@ When setting up an entity, you need a way to uniquely identify each record:
 
 1.  **Primary column selection:**
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.28.55.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.28.55.png" alt="" width="563"><figcaption></figcaption></figure>
 
     * **What is it?** This is like the "unique name" for each record in your dataset
     * **Action:** From your columns, choose one that acts as this unique identifier. This could be something like a 'Customer ID' or 'Email Address'
@@ -65,7 +65,7 @@ When setting up an entity, you need a way to uniquely identify each record:
     * **What is it?** If your data has time-stamps or dates (like "Date of Purchase"), you might want to identify records based on these
     * **Action:** Select the column which holds this time-based information
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.32.51.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.32.51.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -87,10 +87,10 @@ If yes, follow these steps:
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.36.17.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.36.17.png" alt="" width="563"><figcaption></figcaption></figure>
 2.  **Determine relationship type:**
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.37.12.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.37.12.png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 
@@ -106,10 +106,10 @@ If yes, follow these steps:
 
     * **Action:** Pick the column in your current entity that you want to use for matching. This might be something like 'global\_id'
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.38.35.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.38.35.png" alt="" width="563"><figcaption></figcaption></figure>
 4. **Identify key on the other entity:**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 11.41.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 11.41.12.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Action:** Choose the corresponding column in the other entity that matches with your chosen key
 
