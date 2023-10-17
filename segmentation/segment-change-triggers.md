@@ -6,7 +6,11 @@ description: >-
 
 # 👂 Segment change triggers
 
-Here's what they're always on the lookout for:
+Navigate to the 'Changes' view on your segment to observe the additions, updates, and removals from the Segment:
+
+<figure><img src="../.gitbook/assets/Segment changes.gif" alt=""><figcaption></figcaption></figure>
+
+Here's what those three indicators means:
 
 ### **New Record Additions:**&#x20;
 
@@ -19,4 +23,8 @@ Sometimes, existing records undergo changes that might move them in or out of a 
 ### **Record Removals:**
 
 &#x20;If a record that was previously part of a segment gets deleted from the dataset or entity, the segment updates to exclude this record. This ensures that your segments remain relevant and don't include phantom or obsolete data.
+
+
+
+**Note**: See here for a tutorial on [how to trigger your workflows in Cargo as a function](https://docs.getcargo.io/orchestration/triggering-a-workflow) of these changes
 
