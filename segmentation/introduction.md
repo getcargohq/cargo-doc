@@ -34,8 +34,6 @@ _**How it works:**_
     <figure><img src="../.gitbook/assets/Screenshot 2023-10-03 at 10.50.06.png" alt="" width="310"><figcaption></figcaption></figure>
 * Once satisfied, click on the dedicated button (usually highlighted or green) to solidify this as a segment
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-03 at 10.50.37.png" alt=""><figcaption></figcaption></figure>
-
 You've now made a segment directly from a dataset.
 
 ### **2. From an Entity:**&#x20;
@@ -55,10 +53,3 @@ _**How it works**:_
 
 
 * Click the green button to confirm and create the segment
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-03 at 10.44.04.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
