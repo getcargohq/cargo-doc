@@ -18,13 +18,13 @@ Each account has one or more workspaces. A workspace serves as a standalone envi
 
 Cargo connects to data warehouses like Snowflake, BigQuery, and Redshift.
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 14.53.09.png" alt=""><figcaption><p><em>Supported System of Records</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 14.53.09.png" alt="" width="563"><figcaption><p><em>Supported System of Records</em></p></figcaption></figure>
 
 #### Connectors - loads your datasets&#x20;
 
 Connectors are integrations with 3rd party systems. Connectors are end systems, used to trigger actions in your GTM tools.  It also support the webhook connection to trigger a workflow in response to specific events or conditions.
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 14.52.56.png" alt=""><figcaption><p><em>Connectors Catalog</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 14.52.56.png" alt="" width="563"><figcaption><p><em>Connectors Catalog</em></p></figcaption></figure>
 
 **Entities**
 
@@ -40,13 +40,13 @@ Defining relationships _(has many, has one)_ between each of your entity is an i
 
 _Segments_ let you group users or accounts (or any entity) based on specific attributes. You can build a segment from Characteristics, Activities and based on other segments.
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-08 à 11.20.34.png" alt=""><figcaption><p><em>Segment builder</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-08 à 11.20.34.png" alt="" width="563"><figcaption><p><em>Segment builder</em></p></figcaption></figure>
 
 #### Workflows
 
 The heart of Cargo is the Workflow Editor. A workflow is a collection of nodes connected together to automate a process. You can orchestrate different scenarios including scoring, routing, enrichment and more to systemize your go-to-market operations&#x20;
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 15.32.38.png" alt=""><figcaption><p><em>Workflows</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 15.32.38.png" alt="" width="563"><figcaption><p><em>Workflows</em></p></figcaption></figure>
 
 You can trigger a workflow from a segment made on top of your entities, or from a third party app through a webhook.
 

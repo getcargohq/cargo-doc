@@ -12,13 +12,13 @@ description: This section gets you up and running with building workflows in Car
 
 ### Create a Workspace
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 15.54.34.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Bring your system of record to Cargo _(Optional)_
 
 _If you don't have a system of record to link to, skip to the next section:_
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt=""><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt="" width="563"><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
 
 1. If you want to plug Cargo on top of your data warehouse, Click on 'Settings' in the side bar
 2. Select the system of record to connect to: [Redshift](../storage/setup-a-system-of-record/redshift.md), [Snowflake](../storage/setup-a-system-of-record/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
@@ -29,7 +29,7 @@ _If you don't have a system of record to link to, skip to the next section:_
 
 _If you don't have a system of record to link to, you can use our managed instance (or skip this step and jump to the connector section below)_
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 09.27.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-02 at 09.27.19.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once you land on the page above during your onboarding, you can proceed as follows.
 
@@ -41,7 +41,7 @@ Once you land on the page above during your onboarding, you can proceed as follo
 
 If you choose to skip the the onboarding, you'll be redirected to the following page to proceed setting up your data connectors. You can always return to complete the onboarding by clicking 'Finish Onboarding' button on the bottom left.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-10-05 at 12.22.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-05 at 12.22.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ###
 
