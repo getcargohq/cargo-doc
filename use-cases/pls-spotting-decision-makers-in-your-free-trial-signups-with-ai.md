@@ -1,4 +1,4 @@
-# ⛹♀ PLS: Spotting decision makers in your free trial signups with AI
+# 🏹 PLS: Spotting decision makers in your free trial signups with AI
 
 ## **Context**
 

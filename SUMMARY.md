@@ -15,6 +15,10 @@
 * [🏹 PLS: Spotting decision makers in your free trial signups with AI](use-cases/pls-spotting-decision-makers-in-your-free-trial-signups-with-ai.md)
 * [🏹 PLS: Enrich, summarise and route a lead to your sales rep](use-cases/pls-enrich-summarise-and-route-a-lead-to-your-sales-rep.md)
 
+## Cargo for Sheets
+
+* [🏹 PLS: Personalise your first touchpoint for a Typeform signup](cargo-for-sheets/pls-personalise-your-first-touchpoint-for-a-typeform-signup.md)
+
 ## Expressions
 
 * [⚙ Introduction](expressions/introduction.md)
