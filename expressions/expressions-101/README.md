@@ -36,9 +36,7 @@ The standard syntax above evolves slightly when you're referencing data that exi
 
 In this example you can see the data object are element of an array, whose first item is `0`. Within this object there’s a sub object called `properties`, which then contains the name of a company, , i.e. `name`, that we're interested in.
 
-When dealing with such an array syntax evolves a bit, where you first have to reference the index number of the item in the array before being able to access the objects inside, as in the example below:
-
-\
+When dealing with such an array syntax evolves a bit, where you first have to reference the index number of the item in the array before being able to access the objects inside, as in the example below:\
 
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="307"><figcaption></figcaption></figure>
