@@ -83,7 +83,7 @@ To use multiple attributes in a field, you can use the double pipe “||”.&#x2
 
 
 
-## You can execute anyJavaScript operator within an expression.
+## You can execute any JavaScript operator within an expression.
 
 [More here](https://docs.getcargo.io/expressions/expressions-101/javascript-snippets)
 
