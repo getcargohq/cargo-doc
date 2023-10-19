@@ -28,6 +28,27 @@ _Hint: You can rename the nodes to whatever you please_
 
 <figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.50.12.png" alt=""><figcaption></figcaption></figure>
 
+## Handling elements inside an array
+
+The standard syntax above evolves slightly when you're referencing data that exists inside an array of objects, as the one below:
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="301"><figcaption></figcaption></figure>
+
+In this example you can see the data object are element of an array, whose first item is `0`. Within this object there’s a sub object called `properties`, which then contains the name of a company, , i.e. `name`, that we're interested in.
+
+When dealing with such an array syntax evolves a bit, where you first have to reference the index number of the item in the array before being able to access the objects inside, as in the example below:
+
+\
+
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="307"><figcaption></figcaption></figure>
+
+Let's break it down:
+
+1. for the array item you need a `[0]` so it knows which one you’re talking about. The next item would be indexed as `[1]`
+2. next, you need to reference `.properties` to reference the data inside
+3. then, you can see item `.name` inside
+
 ## Autocompletion
 
 When you want to preview which data you have available to use in an expression entering dot ( . ) character within the curly brackets ( \{{ \}} ) will trigger a preview of available nodes, as in the GIF below.
@@ -56,7 +77,7 @@ This can be used for occasions when you know that data being returned will be in
 
 To use multiple attributes in a field, you can use the double pipe “||”.&#x20;
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt=""><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-08 à 15.57.54.png" alt="" width="375"><figcaption><p><em>Fallback logic</em></p></figcaption></figure>
 
 
 
@@ -68,7 +89,7 @@ To use multiple attributes in a field, you can use the double pipe “||”.&#x2
 
 [More here](https://docs.getcargo.io/expressions/expressions-101/javascript-snippets)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-08 at 7.58.35 PM.png" alt=""><figcaption><p>Example of Javascript expression</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-08 at 7.58.35 PM.png" alt="" width="375"><figcaption><p>Example of Javascript expression</p></figcaption></figure>
 
 
 
