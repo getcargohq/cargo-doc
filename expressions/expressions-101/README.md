@@ -9,7 +9,7 @@
 
 ***
 
-## Liquid syntax
+## Syntax
 
 In every workflow in Cargo, expressions allow you to access the available data, you should use a liquid-like syntax starting with '\{{' and closing with '\}}'.&#x20;
 
