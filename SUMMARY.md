@@ -85,6 +85,7 @@
   * [🧮 Google sheets](integrations/integrations-catalog/clearbit/google-sheets.md)
   * [📤 Sendgrid](integrations/integrations-catalog/sendgrid.md)
   * [📤 Lemlist](integrations/integrations-catalog/lemlist.md)
+  * [📤 Instantly](integrations/integrations-catalog/instantly.md)
   * [📤 LaGrowthMachine](integrations/integrations-catalog/lagrowthmachine.md)
   * [📤 Salesloft](integrations/integrations-catalog/salesloft.md)
   * [📤 Snov](integrations/integrations-catalog/snov.md)
