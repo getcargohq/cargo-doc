@@ -64,6 +64,7 @@
   * [🔆 Enrichment](orchestration/nodes-101/enrichment.md)
   * [🛣 Routing](orchestration/nodes-101/routing.md)
   * [💯 Scoring](orchestration/nodes-101/scoring.md)
+  * [↘ Group node](orchestration/nodes-101/group-node.md)
   * [👨🏫 Round robin](orchestration/nodes-101/round-robin.md)
   * [🪃 Variables](orchestration/nodes-101/variables.md)
   * [📤 Load](orchestration/nodes-101/load.md)
