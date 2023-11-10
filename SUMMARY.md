@@ -19,6 +19,7 @@
 
 * [🏹 PLS: Personalise your first touchpoint for a Typeform signup](cargo-for-sheets/pls-personalise-your-first-touchpoint-for-a-typeform-signup.md)
 * [🏹 Outbound: Enhance your email copy with an AI prompt](cargo-for-sheets/outbound-enhance-your-email-copy-with-an-ai-prompt.md)
+* [🏹 Outbound: Adapt your outreach to prospect's MBTI](cargo-for-sheets/outbound-adapt-your-outreach-to-prospects-mbti.md)
 
 ## Expressions
 
