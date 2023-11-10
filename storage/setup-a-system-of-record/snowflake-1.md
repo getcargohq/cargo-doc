@@ -11,7 +11,7 @@
 
 (instead it always creates its own schemas and tables when needed)
 
-To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions in Snowflake
+To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions in PostgreSQL.
 
 ## Prerequisites
 
