@@ -1,6 +1,6 @@
 # 🏹 Outbound: Adapt your outreach to prospect's MBTI
 
-You're not happy with the typical personalisation in a mass outbound email and want to go one step further. In the Cargo for sheets community we noticed an interesting tactic and decided to make a template.
+You're not happy with the typical personalisation in a mass outbound email and want to go one step further. In the Cargo for sheets community we noticed an interesting tactic and decided to make a template out of it.
 
 Turns out, it can increase reply rates and conversion rate over and above your standard personalisation hacks.
 
@@ -9,9 +9,9 @@ The trick is to chain your prompts.
 
 
 
-### Provide a columns of Linkedin links
+### Provide a column of Linkedin links
 
-Your starting point is to provide a column of linkedin links. All the other prompts are built on the information based in here.
+Your starting point is to provide a column of LinkedIn links. All the other prompts are built on the information based in here.
 
 Make sure you have the LLM option enabled to be able to browse the contents of the link.
 
@@ -19,11 +19,11 @@ Make sure you have the LLM option enabled to be able to browse the contents of t
 
 ### Chain your prompts
 
-Your first prompt will refer the column of LinkedIn links and will ask GPT to deduce the MBTI information using a quick analysis of public information on the prospect's profile
+Your first prompt will refer to the column of Linkedin links and will ask GPT to deduce the MBTI information using a quick analysis of public information on the prospect's profile
 
 {% code overflow="wrap" %}
 ```
-Help me determine this person's MBTI profile. Can you take a guess at extraversion vs introversion? Try to give scores for each category from 1 to 5
+Help me determine this person's MBTI profile form the LinkedIn profile link. Can you take a guess at extraversion vs introversion? Try to give scores for each category from 1 to 5
 
 Profile link: {{LinkedinLink}}
 ```
