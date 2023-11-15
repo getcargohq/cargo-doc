@@ -1,4 +1,4 @@
-# 🏹 Outbound: Adapt your outreach to prospect's MBTI
+# 🤼 Outbound: Adapt your outreach to prospect's MBTI
 
 You're not happy with the typical personalisation in a mass outbound email and want to go one step further. In the Cargo for sheets community we noticed an interesting tactic and decided to make a template out of it.
 

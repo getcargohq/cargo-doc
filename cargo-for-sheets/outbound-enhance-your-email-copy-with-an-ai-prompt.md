@@ -1,4 +1,4 @@
-# 🏹 Outbound: Enhance your email copy with an AI prompt
+# 🤼 Outbound: Enhance your email copy with an AI prompt
 
 You've written an email copy but it's not quite there yet. Maybe it's too long and not personalised enough with the classic approach.
 

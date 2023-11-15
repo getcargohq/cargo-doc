@@ -1,16 +1,14 @@
-# 🏹 Outbound: New job post intent strategy with Lonescale
+# 🤼 Outbound: New job post intent strategy with Lonescale
 
 ## **Context**
 
-You suspect that when a certain kind of ICP-like (Ideal Customer Profile) company posts a specific kind of job posting, it's a strong signal that they're ready to buy your product? \
-\
-A lot of GTM teams we work with certainly think so and so we have built different versions of a strategy using a tool called Lonescale for them.\
-\
-The trouble with job postings is that they can be high volume at times, and if you don't want to chase every company that is hiring in your segment, then you may spend a lot of time sorting through these leads manually.&#x20;
+Do you think that specific job postings by companies matching your Ideal Customer Profile (ICP) indicate their readiness to purchase your product?&#x20;
+
+Many Go-to-Market (GTM) teams using Cargo believe so and have built various workflows using tools like Lonescale.
+
+One challenge with job postings is their volume though; sifting through them manually to find relevant leads can be time-consuming.&#x20;
 
 We thought we could use the AI feature in Cargo to make this process smarter.
-
-Here's how it works:
 
 ## **Setting up your Lonescale**
 
@@ -20,16 +18,15 @@ Then you just need to copy Cargo's webhook URL in to your Lonescale interface.
 
 Illustration below:
 
-\<GIF>
+<figure><img src="../.gitbook/assets/Lonescale tuto 1.gif" alt=""><figcaption></figcaption></figure>
 
 ## **Check for existing accounts or contacts**
 
 You might want to make sure you're don't to reach out to existing clients, accounts or contacts in your CRM.&#x20;
 
-There are multiple ways of doing this, you could make a search in your CRM, or if you have an entity in Cargo mapped to your CRM you could do a base search there (illustration below)\
+There are multiple ways of doing this, you could make a search in your CRM, or if you have an entity in Cargo mapped to your CRM you could do a base search there (illustration below):
 
-
-\<GIF>
+<figure><img src="../.gitbook/assets/Lonescale tuto 2.gif" alt=""><figcaption></figcaption></figure>
 
 ## **Set up criteria for AI to evaluate the relevance of the job description**
 
@@ -57,7 +54,7 @@ Here is the content of the job description to analyse:
 ```
 {% endcode %}
 
-This will produce a long text containing the criteria and the points awared, you can use the prompts below to clean up and sort this reponse into useable insights.\
+This will produce a long text containing the criteria and the points awared, you can use the prompts below to clean up and sort this response into useable insights.\
 
 
 {% code overflow="wrap" %}
@@ -101,10 +98,8 @@ rule: don't include the passed text above in your output
 
 Now you're ready to sort the right job posts in order of pertinence\
 \
-Use a filter node, as below:\
+Use a filter node to filter out any records with a score lower than a certain threshold.\
 
-
-\<GIF>
 
 ## **Search for stakeholders belonging to the hiring company**
 
@@ -112,11 +107,14 @@ You have retained the right job posts that are pertinent and now you can using y
 \
 You can set up an Apollo (or equivalent) search node, as below:
 
+<figure><img src="../.gitbook/assets/Lonescale tuto 4.gif" alt=""><figcaption></figcaption></figure>
+
 ## **Use a group node to loop through these stakeholders and send an email**
 
-Select a group node and set the input data as below:\
-\<GIF>\
-\
+Select a group node and set the input data as below:
+
+<figure><img src="../.gitbook/assets/Lonescale tuto 3.gif" alt=""><figcaption></figcaption></figure>
+
 Within the group node, you'd want to setup a personalised outreach email and then push this to an existing sequence.\
 \
 Here's an example of a prompt we used to generate an email based on the contents of the job description and role of the person receiving the email (make sure to replace the placeholders inside '<>').
@@ -144,6 +142,6 @@ Job description: {{parentNodes.start.job_description}} //replace this with the c
 ```
 {% endcode %}
 
-Now you have a crafted email ready to send. You'll probably want to add a manual review process here. You can either do this inside Cargo by enabling the manual review toggle (as below) or disabling automatic email emission inside your Outreach tool (Lemlist in illustration below).\
+Now you have a crafted email ready to send. You'll probably want to add a manual review process here. You can do this either inside Cargo by enabling the manual review toggle (as below) or disabling automatic email emission inside your Outreach tool (Lemlist in illustration below).\
 \
 There you go, sit back and watch the leads flow in :sunglasses:. It works!
