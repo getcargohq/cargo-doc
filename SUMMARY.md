@@ -14,14 +14,14 @@
 * [🔔 Inbound: Inbound leads routing](use-cases/inbound-inbound-leads-routing.md)
 * [🏹 PLS: Spotting decision makers in your free trial signups with AI](use-cases/pls-spotting-decision-makers-in-your-free-trial-signups-with-ai.md)
 * [🏹 PLS: Enrich, summarise and route a lead to your sales rep](use-cases/pls-enrich-summarise-and-route-a-lead-to-your-sales-rep.md)
-* [🏹 Outbound: New job post intent strategy with Lonescale](use-cases/outbound-new-job-post-intent-strategy-with-lonescale.md)
+* [🤼 Outbound: New job post intent strategy with Lonescale](use-cases/outbound-new-job-post-intent-strategy-with-lonescale.md)
 
 ## Cargo for Sheets
 
 * [🏹 PLS: Personalise your first touchpoint for a Typeform signup](cargo-for-sheets/pls-personalise-your-first-touchpoint-for-a-typeform-signup.md)
-* [🏹 Outbound: Enhance your email copy with an AI prompt](cargo-for-sheets/outbound-enhance-your-email-copy-with-an-ai-prompt.md)
-* [🏹 Outbound: Adapt your outreach to prospect's MBTI](cargo-for-sheets/outbound-adapt-your-outreach-to-prospects-mbti.md)
-* [🏹 Outbound: Classify your prospect as B2B or B2c](cargo-for-sheets/outbound-classify-your-prospect-as-b2b-or-b2c.md)
+* [🤼 Outbound: Enhance your email copy with an AI prompt](cargo-for-sheets/outbound-enhance-your-email-copy-with-an-ai-prompt.md)
+* [🤼 Outbound: Adapt your outreach to prospect's MBTI](cargo-for-sheets/outbound-adapt-your-outreach-to-prospects-mbti.md)
+* [🤼 Outbound: Classify your prospect as B2B or B2c](cargo-for-sheets/outbound-classify-your-prospect-as-b2b-or-b2c.md)
 
 ## Expressions
 
