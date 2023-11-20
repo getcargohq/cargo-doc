@@ -22,6 +22,7 @@
 * [🤼 Outbound: Enhance your email copy with an AI prompt](cargo-for-sheets/outbound-enhance-your-email-copy-with-an-ai-prompt.md)
 * [🤼 Outbound: Adapt your outreach to prospect's MBTI](cargo-for-sheets/outbound-adapt-your-outreach-to-prospects-mbti.md)
 * [🤼 Outbound: Classify your prospects as B2B or B2C](cargo-for-sheets/outbound-classify-your-prospects-as-b2b-or-b2c.md)
+* [🤼 Outbound: Find your prospect's competitor](cargo-for-sheets/outbound-find-your-prospects-competitor.md)
 
 ## Expressions
 
