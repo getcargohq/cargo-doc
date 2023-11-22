@@ -10,6 +10,7 @@
 ## Use Cases
 
 * [🤼 Outbound: New job post intent strategy with Lonescale](use-cases/outbound-new-job-post-intent-strategy-with-lonescale.md)
+* [🤼 Outbound: Company headcount intent strategy with Captain Data](use-cases/outbound-company-headcount-intent-strategy-with-captain-data.md)
 * [🤼 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
 * [🏎 PLG: Entity-level scoring](use-cases/plg-entity-level-scoring.md)
 * [🔔 Inbound: Inbound leads routing](use-cases/inbound-inbound-leads-routing.md)
@@ -22,7 +23,7 @@
 * [🤼 Outbound: Enhance your email copy with an AI prompt](cargo-for-sheets/outbound-enhance-your-email-copy-with-an-ai-prompt.md)
 * [🤼 Outbound: Adapt your outreach to prospect's MBTI](cargo-for-sheets/outbound-adapt-your-outreach-to-prospects-mbti.md)
 * [🤼 Outbound: Classify your prospects as B2B or B2C](cargo-for-sheets/outbound-classify-your-prospects-as-b2b-or-b2c.md)
-* [🤼 Outbound: Find your prospect's competitor](cargo-for-sheets/outbound-find-your-prospects-competitor.md)
+* [🤼 Outbound: Find your prospect's competitors](cargo-for-sheets/outbound-find-your-prospects-competitors.md)
 
 ## Expressions
 
