@@ -83,6 +83,7 @@
 
 * [📖 Integrations catalog](integrations/integrations-catalog/README.md)
   * [🪅 Salesforce](integrations/integrations-catalog/salesforce.md)
+  * [🪅 Close](integrations/integrations-catalog/closecom.md)
   * [🪅 Hubspot](integrations/integrations-catalog/hubspot.md)
   * [🪅 Pipedrive](integrations/integrations-catalog/pipedrive.md)
   * [🎱 Slack](integrations/integrations-catalog/slack.md)
