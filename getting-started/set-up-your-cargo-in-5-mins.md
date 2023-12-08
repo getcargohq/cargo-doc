@@ -21,7 +21,7 @@ _If you don't have a system of record to link to, skip to the next section:_
 <figure><img src="../.gitbook/assets/Capture d’écran 2023-05-07 à 16.10.21.png" alt="" width="563"><figcaption><p><em>CDW setup instructions</em></p></figcaption></figure>
 
 1. If you want to plug Cargo on top of your data warehouse, Click on 'Settings' in the side bar
-2. Select the system of record to connect to: [Redshift](../storage/setup-a-system-of-record/redshift.md), [Snowflake](../storage/setup-a-system-of-record/snowflake.md) or [Bigquery](http://127.0.0.1:5000/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
+2. Select the system of record to connect to: [Redshift](../storage/setup-a-system-of-record/redshift.md), [Snowflake](../storage/setup-a-system-of-record/snowflake.md) or [Bigquery](https://app.gitbook.com/o/4mORJs1gC0yIX9GWp4Rp/s/xm3PV8WN8Sxx6tS7U2FC/).
 3. Follow the corresponding instructions. This step is often made with your data engineer.
 4. Define the 'Sync Schedule' in the settings options. You can choose at custom interval, every 10 minutes, hours, daily and weekly.
 
