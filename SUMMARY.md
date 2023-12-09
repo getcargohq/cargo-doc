@@ -10,7 +10,7 @@
 ## Use Cases
 
 * [🤼 Outbound: New job post intent strategy with Lonescale](use-cases/outbound-new-job-post-intent-strategy-with-lonescale.md)
-* [🤼 Outbound: Prospect e-commerce players using Storeleads and Builtwith](use-cases/outbound-prospect-e-commerce-players-using-storeleads-and-builtwith.md)
+* [🤼 Outbound: Prospect e-commerce players using Store Leads and BuiltWith](use-cases/outbound-prospect-e-commerce-players-using-store-leads-and-builtwith.md)
 * [🤼 Outbound: Company headcount intent strategy with Captain Data](use-cases/outbound-company-headcount-intent-strategy-with-captain-data.md)
 * [🤼 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
 * [🏎 PLG: Entity-level scoring](use-cases/plg-entity-level-scoring.md)

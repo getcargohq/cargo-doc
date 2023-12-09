@@ -1,30 +1,30 @@
-# 🤼 Outbound: Prospect e-commerce players using Storeleads and Builtwith
+# 🤼 Outbound: Prospect e-commerce players using Store Leads and BuiltWith
 
 ## **Context**
 
-Are you selling to e-commerce players want to segment those on Shopify, WooCommerce Checkout or Magento?
+Targeting e-commerce businesses and need to identify those using Shopify, WooCommerce Checkout, or Magento?&#x20;
 
-We noticed this neat template being used in the Cargo community and thought we make it public.
+We've spotted a popular template in the Cargo community and decided to share it.
 
-One challenge with Storeleads data is that it won't always find the account in its database. Which why we'll demonstrate how to use our HTTP connector to make an API request to the Builtwith API and retrieve this data.
+Challenge: Sometimes, Store Leads might not locate the account. We'll show you how to use Cargo's HTTP connector to query the BuiltWith API for this case.
 
 ## **Setting up your data source**
 
-You can use either a Webhook or a dataset in Cargo to enrol records from. Since Storeleads expects a company domain, your dataset should at least have a column containing one.
+Start with a webhook or a dataset in Cargo - your call. Just ensure your dataset includes a column with the company domain.
 
-## **Make a call to Storeleads**
+## **Make a call to Store Leads**
 
-Select a Storeleads node from the catalog in your Cargo workflow, map the value of the domain to be passed, and you're set.
+Select a Store Leads node from the catalog in your Cargo workflow, map the value of the domain to be passed, and you're set.
 
 <figure><img src="../.gitbook/assets/storeleads run tuto.gif" alt=""><figcaption></figcaption></figure>
 
 ## **Set a back up with Builtwith**
 
-For the records that Storeleads fails to enrich, you can make an API call to Builtwith to retrieve the tech stack used by that company, like in the illustration below.
+For the records that Store Leads fails to enrich, you can make an API call to BuiltWith to retrieve the tech stack used by that company, like in the illustration below.
 
 <figure><img src="../.gitbook/assets/builtwith call.gif" alt=""><figcaption></figcaption></figure>
 
-Here's the little JS snippet we used to flatten all the names of the technologies returned by Builtwith into a single string
+Here's the little JS snippet we used to flatten all the names of the technologies returned by BuiltWith into a single string
 
 {% code overflow="wrap" %}
 ```
