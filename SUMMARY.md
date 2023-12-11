@@ -12,6 +12,7 @@
 * [🤼 Outbound: New job post intent strategy with Lonescale](use-cases/outbound-new-job-post-intent-strategy-with-lonescale.md)
 * [🤼 Outbound: Prospect e-commerce players using Store Leads and BuiltWith](use-cases/outbound-prospect-e-commerce-players-using-store-leads-and-builtwith.md)
 * [🤼 Outbound: Company headcount intent strategy with Captain Data](use-cases/outbound-company-headcount-intent-strategy-with-captain-data.md)
+* [🏹 PLS: Slack your AE when a client attains a usage threshold](use-cases/pls-slack-your-ae-when-a-client-attains-a-usage-threshold.md)
 * [🤼 Outbound: Enrich accounts to find stakeholders](use-cases/outbound-enrich-accounts-to-find-stakeholders.md)
 * [🏎 PLG: Entity-level scoring](use-cases/plg-entity-level-scoring.md)
 * [🔔 Inbound: Inbound leads routing](use-cases/inbound-inbound-leads-routing.md)
