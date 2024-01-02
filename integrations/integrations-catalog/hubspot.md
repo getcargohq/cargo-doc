@@ -16,7 +16,7 @@ To connect to Hubspot, click on authenticate and log in with your credentials
 
 ### Available actions
 
-**Write** - Perform actions on any salesforce objects
+**Write** - Perform actions on any Hubspot objects
 
 **Associate** - Associate 2 object records together
 
