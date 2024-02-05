@@ -1,39 +1,30 @@
----
-description: Premium option
----
+# Use Cargo on PostgreSQL
 
-# Use Cargo's Snowflake instance
+✅ What Cargo can do
 
-To get the full benefits of a data warehouse, without having to manage it yourself, we offer a Snowflake instance as a paid offer.
+1. **Read** data from schemas and tables
+2. **Writes** them into new schemas and tables
 
-**Note:** While this instance comes with added benefits, it also incurs added costs. Thus, it's available exclusively on our premium plans.
+❌ What Cargo will never do
 
-## Getting Started:
+1. **Overwrite** existing schemas and tables
 
-Just like with the Postgres instance, the process is intuitive:
+(instead it always creates its own schemas and tables when needed)
 
-* **Step 1:** Begin at [**signup**](https://app.getcargo.io/)&#x20;
-* **Step 2:** Remember to choose **‘I don’t have a data warehouse’**
+To achieve all of this, some setup is required to ensure that Cargo has the necessary permissions in PostgreSQL.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 09.27.19.png" alt=""><figcaption></figcaption></figure>
+## Prerequisites
 
-* **Step 3:** A little wait as we **install** the Snowflake instance tailored for you. \<add visual>
+If your database is not on AWS RDS, make sure you have the following extensions installed:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 09.28.01.png" alt=""><figcaption></figcaption></figure>
+* **plv8** - required for computed columns, as Cargo needs to run Javascript UDF on the database.
+* **aws\_s3** - required to download the records of a Cargo entity or segment.
 
-* **Step 4:** Connect your data sources by **adding a data connector**.&#x20;
+You might also want to create a specific user for Cargo, with limited accesses on your database.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 09.37.10.png" alt=""><figcaption></figcaption></figure>
+## Setup
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 09.30.06.png" alt=""><figcaption><p>Choose a connector from the catalog</p></figcaption></figure>
-
-* **Step 5**: With the data in place, it's time to add intelligence. Set up a **workflow** to automate and manage processes.
-
-&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-02 at 09.36.30.png" alt=""><figcaption></figcaption></figure>
-
-
+The only thing you have to do is to copy/paste the database credentials in Cargo.
 
 ## Setup completed 🎉
 
