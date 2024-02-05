@@ -1,10 +1,12 @@
 ---
-description: Free option
+description: Premium option
 ---
 
-# Use Cargo's Postgres Instance
+# Use Cargo's Snowflake instance
 
-Whether you haven’t yet setup your own warehouse, or you’re simply looking for quick start to ensure agility, we offer an option to manage the a database instance for you, so you can focus solely on building you entities and workflows
+To get the full benefits of a data warehouse, without having to manage it yourself, we offer a Snowflake instance as a paid offer.
+
+**Note:** While this instance comes with added benefits, it also incurs added costs. Thus, it's available exclusively on our premium plans.
 
 ## Getting Started:
 
