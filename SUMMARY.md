@@ -91,6 +91,7 @@
   * [🎱 Slack](integrations/integrations-catalog/slack.md)
   * [🌐 HTTP](integrations/integrations-catalog/http.md)
   * [🍧 Customer.io](integrations/integrations-catalog/customerio.md)
+  * [🍧 Mixpanel](integrations/integrations-catalog/mixpanel.md)
   * [🧮 Google sheets](integrations/integrations-catalog/clearbit/google-sheets.md)
   * [📤 Sendgrid](integrations/integrations-catalog/sendgrid.md)
   * [📤 Lemlist](integrations/integrations-catalog/lemlist.md)
