@@ -4,7 +4,7 @@ You've written an email copy but it's not quite there yet. Maybe it's too long a
 
 We noticed a neat little trick to speed up the iteration process, just by using a smart way.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="214"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="214"><figcaption></figcaption></figure>
 
 ### Setup your incoming data
 

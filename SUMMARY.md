@@ -111,6 +111,7 @@
   * [🔭 Dropcontact](integrations/integrations-catalog/dropcontact.md)
   * [🔭 PredictLeads](integrations/integrations-catalog/predictleads.md)
   * [🔭 Expandi.io](integrations/integrations-catalog/expandi.io.md)
+  * [🔭 Datagma](integrations/integrations-catalog/datagma.md)
   * [🚓 Hunter](integrations/integrations-catalog/hunter.md)
   * [🚓 ZeroBounce](integrations/integrations-catalog/zerobounce.md)
   * [🚓 NeverBounce](integrations/integrations-catalog/neverbounce.md)
