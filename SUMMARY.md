@@ -110,7 +110,7 @@
   * [🔭 Lusha](integrations/integrations-catalog/lusha.md)
   * [🔭 Dropcontact](integrations/integrations-catalog/dropcontact.md)
   * [🔭 PredictLeads](integrations/integrations-catalog/predictleads.md)
-  * [🔭 Expandi.io](integrations/integrations-catalog/expandi.io.md)
+  * [🔭 Expandi.io](integrations/integrations-catalog/expandi.md)
   * [🔭 Smartlead.ai](integrations/integrations-catalog/expandi-1.md)
   * [🔭 Datagma](integrations/integrations-catalog/datagma.md)
   * [🚓 Hunter](integrations/integrations-catalog/hunter.md)
