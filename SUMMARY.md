@@ -87,6 +87,7 @@
   * [🪅 Close](integrations/integrations-catalog/closecom.md)
   * [🪅 Hubspot](integrations/integrations-catalog/hubspot.md)
   * [🪅 Pipedrive](integrations/integrations-catalog/pipedrive.md)
+  * [🪅 Netsuite](integrations/integrations-catalog/netsuite.md)
   * [🎱 Slack](integrations/integrations-catalog/slack.md)
   * [🌐 HTTP](integrations/integrations-catalog/http.md)
   * [🍧 Customer.io](integrations/integrations-catalog/customerio.md)

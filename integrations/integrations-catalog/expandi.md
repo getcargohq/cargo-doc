@@ -12,7 +12,7 @@ Create leads on Expandi.io campaigns
 
 First of all, you need to create a campaign within Expandi by clicking on the Campaigns button in the sidebar menu on Expandi and on the Add Campaign button. If you have created a campaign already, just open it by clicking on the name of it and go to the Integrations tab.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then select the campaign by clicking on it and go to the Integrations tab. Copy the URL to use below the Assign people by using a webhook section.
 

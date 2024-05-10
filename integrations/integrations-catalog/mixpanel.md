@@ -20,7 +20,7 @@ You can also manage service accounts in your [project settings](https://mixpanel
 
 You will be asked to select the role and granted projects of the when creating a service account from the organization's settings page.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Once the service account is created copy Username and secret in your connector's config on cargo.
 
