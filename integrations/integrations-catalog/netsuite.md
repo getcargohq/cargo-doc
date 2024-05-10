@@ -18,7 +18,7 @@ Setting up Cargo to sync data with NetSuite involves creating and configuring a 
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.43.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.19.04.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,7 +30,7 @@ Setting up Cargo to sync data with NetSuite involves creating and configuring a 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.17.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.19.59.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -49,7 +49,7 @@ Setting up Cargo to sync data with NetSuite involves creating and configuring a 
   * For multi-subsidiary NetSuite users, check **All** under **Accessible subsidiaries**
   * Under **Authentication**, check **Web Services only Role**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.25.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.21.43.png" alt=""><figcaption></figcaption></figure>
 
 * Under **Permissions > Setup**, grant the following permissions:
   * Access Token Management: Full
@@ -83,23 +83,23 @@ Setting up Cargo to sync data with NetSuite involves creating and configuring a 
 
 
 
-<figure><img src="../../.gitbook/assets/destination-netsuite-new-user.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/destination-netsuite-new-user.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### Create an access token
 
 * Go to **Setup > Users/Roles > Access Tokens**.
 * Click **New Access Token**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.35.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.23.48.png" alt=""><figcaption></figcaption></figure>
 
 * Select the integration, user, and role you previously configured.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.37.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.25.02.png" alt=""><figcaption></figcaption></figure>
 
 * Click **Save**.
 * Copy and store the **Token ID** and **Token Secret** securely.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.38.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.26.17.png" alt=""><figcaption></figcaption></figure>
 
 #### Enable REST web services
 
@@ -111,7 +111,7 @@ Setting up Cargo to sync data with NetSuite involves creating and configuring a 
 
 
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 15.41.03.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-05-10 at 16.27.22.png" alt=""><figcaption></figcaption></figure>
 
 After completing these steps, you'll have set up the necessary configurations in Caro Netsuite Connector.
 
